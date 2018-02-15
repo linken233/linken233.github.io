@@ -40,7 +40,11 @@ max-width: 800px;
 <ul>
 <li class="SiteIntro">
 <h3>WELCOME TO KNIGHTS OF THE FORCE 2.1</h3>
-<p>First list, add in the launch trailer maybe?</p>
+<p>Enjoy the music</p>
+<audio controls autoplay loop><source src="Rey.mp3" type="audio/mpeg"></audio>
+<p></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q2uxrCws14o?controls=0" 
+ frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </li>
 <li class="Updates">
 <h3>KOTF Updates (Non-Windows Users only)</h3>
