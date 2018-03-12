@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,7 +19,6 @@ background-attachment: fixed;
 }
 p:last-child
 {
-line-height:1.2;
 margin-bottom: 0;
 }
 ul
@@ -28,10 +26,6 @@ ul
 list-style: none;
 padding: 0;
 margin: 0;
-}
-a
-{
-color: #FFEEDD;
 }
 li
 {
@@ -49,78 +43,21 @@ max-width: 800px;
 <body>
 <ul>
 <li class="SiteIntro">
-<h2>WELCOME TO KNIGHTS OF THE FORCE 2.1</h2>
+<h3>WELCOME TO KNIGHTS OF THE FORCE 2.1</h3>
 </li>
 <li class="Updates">
-<h2>KOTF Manual Updates</h2>
-<p><b><i>These updates are only for those who are unable to use the launcher and updater. Use the updater if you would like.</p></b></i>
-<a href="https://drive.google.com/open?id=1m9zj3bhrhbfT6oG-oirFMjRbL3rx9DZx"><p><u>UPDATE - 3/11/18</u></p></a>
+<h3>KOTF Updates (Non-Windows Users only)</h3>
+<p>No manual updates available at this time.</p>
 </li>
 <li class="Patch">
-<h2>Patch Notes</h2>
-<p></p>
-<h3><u>Patch Notes - 3/11/18</u></h3>
-
-<h3><u><b>GENERAL IMPROVEMENTS</b></u></h3>
-<p>- Dismemberment has been fixed, you may now chop up your victims to your heart's content.
-<br>- Dismemberment probabilities have been changed to only offer two values, low or high.</p> 
-
-
-<h3><u><b>MULTIPLAYER</u></b></h3>
-<p>- Players engaging in a duel will be granted full health and shields for the battle ahead.
-<br>- After a duel has ended, the victor will be granted full health and shields.
-<br>- Players can now roll with a gun as their active weapon.</p>
-
-<h3><u><b>DUEL OF THE FATES</b></u></h3>
-<p>- Increased waiting time after selecting a character to play as so the character's dialogue can fully play.</p>
-
-<h3><u><b>NPCS</b></u></h3>
-<h3><u>The Galactic Republic</u></h3>
-<p>- Tiplee and Tiplar have discovered the importance of communication. They will now talk properly.
-
-<h3><u>The Separatist Alliance</u></h3>
-<p>- Asajj Ventress went back for some extra training under Count Dooku; her health has been increased from 300 to 400.
-<br>- Durge has grown throughout the Clone Wars, and has been rescaled from 150 to 169.
-<br>- Darth Maul's shirtless variant (with natural legs) has been given his staff instead of a single-bladed lightsaber.
-<br>- Savage Opress went back to Dathomir to complete his transformation; he has been rescaled from 106 to 123.
-<br>- Savage Opress upgraded his lightsaber with his new height change, the blade is now longer to compensate for his height.
-<br>- Count Dooku was most displeased with the size of the Super Battle Droids. After some work on the manufacturing line, they have been rescaled from 109 to 125.</p>
-
-<h3><u>The Galactic Empire</u></h3>
-<p>- Alora realized that it was way too hot on Taspir III and decided to take off her winter gear and dress in something more appropriate to the climate.
-<br>- Galak Fyyar felt very cramped in his Cortosis armor and commanded his engineers to rescale it from 100 to 110.
-<br>- Galak Fyyar found his voice outside of his armor and will now talk.
-<br>- Galak's Cortosis armor variant has been changed from CLASS_GALAK_MECH (which doesn't exist in Jedi Academy's code) to CLASS_HAZARD_TROOPER.
-<br>- The 8th Brother has discovered the importance of being vocal, and will now talk.</p>
-
-<h3><u><b>MAPS</u></b></h3>
-
-<h3><u>Carbon City</u></h3>
-<p>- Added missing textures: models/map_objects/imp_mine/crate_open and models/map_objects/kejim/crate_01
-<br>- Sound file Re-Rendering with mono option</p>
-
-<h3><u>Tatooine Duel</u></h3>
-<p>- With the release of a new KotF OpenJK build, TatooineDuel can now be accessed without crashing. It is now free to choose in the map selection menu.</p>
-
-<h3><u>Invisible Hand (v1)</u></h3>
-<p>- The Invisible Hand map has been changed from its free for all version to its siege version for use in Single Player. It is no longer greyed out.</p>
-
-<h3><u>Naboo Hills</u></h3>
-<p>- The map no longer crashes on startup.
-<br>- Replaced missing vehicles due to renames. (Droid Starfighter and Clone Gunship)</p>
-
-<h3><u>Kashyyyk</u></h3>
-<p>- Replaced missing vehicles due to renames. (STAP and Droid Starfighter)</p>
-
-<h3><u>Trade Federation Ship v1</u></h3>
-<p>- Fixed an issue where Droid Starfighters would float after respawning in the hangar.</p>
-
+<h3>Patch Notes</h3>
+<p>No patch notes available at this time.</p>
 </li>
 <li class="KotFSM">
-<h2>FOLLOW US</h2>
-<p><a href="https://discord.gg/eJDds24">Discord</a>
-<br><a href="http://www.moddb.com/mods/knights-of-the-force-21">Moddb</a>
-<br><a href="https://jkhub.org/forum/144-knights-of-the-force/">JKHub</a></p>
+<h3>FOLLOW US</h3>
+<p><a href="https://discord.gg/eJDds24">Discord</a></p>
+<p><a href="http://www.moddb.com/mods/knights-of-the-force-21">Moddb</a></p>
+<p><a href="https://jkhub.org/forum/144-knights-of-the-force/">JKHub</a></p>
 </li>
 </ul>
 <body>
