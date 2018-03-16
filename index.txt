@@ -51,10 +51,19 @@ max-width: 800px;
 <li class="SiteIntro">
 <h2>WELCOME TO KNIGHTS OF THE FORCE 2.1</h2>
 </li>
+<li class="News">
+<h2><b><u>NEWS</u></b></h2>
+<p>To anyone who might be interested, we are currently in production of our next update, which we plan to feature new improvements to the many NPCs that are a part of this mod. However, we can't progress
+very far without you help. We want your feedback and suggestions. Please feel free to send Linken any suggestions you may have regarding NPC improvements you would like to see. We're looking forward to seeing
+what you all have to say.<br><br>Thank you for following the development of Knights of the Force 2.1, and may the Force be with you.</p>
+<p><b><u>CONTACT LINKEN:</b></u><br><br><a href="https://jkhub.org/user/319-linken/">JKHUB</a>
+<br><a href="http://www.moddb.com/members/linken233">MODDB</a>
+<br><a href="https://discord.gg/eJDds24">DISCORD</a>
+</li>
 <li class="Updates">
 <h2>KOTF Manual Updates</h2>
 <p><b><i>These updates are only for those who are unable to use the launcher and updater. Use the updater if you would like.</p></b></i>
-<a href="https://drive.google.com/open?id=1vei0cQPHkVCM8G7fUDHQlDnW17eCjnZm"><p><u>UPDATE - 3/11/18</u></p></a>
+<a href="https://drive.google.com/open?id=1vei0cQPHkVCM8G7fUDHQlDnW17eCjnZm"><p><u>UPDATE - 3/13/18</u></p></a>
 </li>
 <li class="Patch">
 <h2>Patch Notes</h2>
