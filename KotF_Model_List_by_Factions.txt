@@ -1,0 +1,146 @@
+//TOR\\
+
+//TSE\\
+
+- kallig		default | hood
+
+- Lord_Larith		default
+
+- Lord_Ragnos		default
+
+- scourge		default
+
+- ludo_kressh		default
+
+- nagasadow		default
+
+- Tulak_Hord		default	
+
+- Valkorion		default
+
+- Vaylin		default
+
+- Arcann		default
+
+- darth_marr		default	
+
+- darth_talon		default	
+
+- Ashara_Zavros		default
+
+- sith_warrior		uthar
+
+//CIS\\
+
+- NeimoidianSecurity	default | gun
+
+- maul_cw		default
+
+//REPUBLIC\\
+
+- Abednedo		default | robed | hood
+
+- AlderaanGuard		default | 2 | 3 | 4 | 5	
+
+- BrehaOrgana		default	
+
+- CaptainTypho		default
+
+- CorUnderPol		default	
+
+- MasterRancisis	default | robed	
+
+- MasterZao		default	
+
+- RigNema		default | robed
+
+- Valorum		default | cape
+
+- RedathGom		default | robed
+
+- TaradosGon		default | robed
+
+- bultar		default
+
+- TsuiChoi		default
+
+- IthorianJedi		default | robed	
+
+- CloneCivvies		default | cadet	
+
+- CloneNaval		default | hat | medical | medicalhat | pilot
+
+- depa_skirt		default
+
+- agen_kolar		cw | default | hood | robed
+
+- eeth_koth		cw | default | hood | robed
+
+- kit_fisto		cw | default | hood | robed
+
+- saesee_tiin		cw | default | hood | robed
+
+- mace_windu		default | robed
+
+- quigon		default | hood | poncho | robed
+
+//REBEL\\
+
+- niennunb		default
+
+- hansolo		anh | esb | rotj | solo
+
+- OldBen		default
+
+
+//EMPIRE\\
+
+- lord_stalker		default
+
+//RESISTANCE\\
+
+- Finn_TLJ		default | resistance
+
+- Poe_TLJ		default | helmet | officer | resistance
+
+- Rey_TLJ		default | jedi | resistance |scavenger
+
+- luke_crait		default | hood
+
+!! REMEMBER TO DO ICONS WITH NEW RESISTANCE LOGO !!
+
+//FIRST ORDER\\
+
+- praetorian_guard	default
+
+- snoke			default | blackrobe
+
+- snoketfa		default | blackrobe
+
+- FO_Female		default
+
+- Hux			coat | default | hat
+
+- FO_Male		default
+
+- kylo_ren		nohood | nomask | tlj | tlj_nomask
+
+- kylo_tfa		default
+
+//CIVILIANS\\
+
+- kabe			default
+
+//PIRATES\\
+
+- BlackSunMerc		default	
+
+- SidonIthano		default | sword
+
+//BOUNTY HUNTERS\\
+
+- Sugi			default	
+
+//MANDALORIANS\\
+
+- bokatan 		default

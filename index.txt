@@ -29,9 +29,24 @@ list-style: none;
 padding: 0;
 margin: 0;
 }
+button
+{
+background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;
+outline:none;
+color: #FFEEDD;
+font-size: 11pt;
+}
 a
 {
 color: #FFEEDD;
+}
+.oldPatch
+{
+display:none;
 }
 li
 {
@@ -51,82 +66,255 @@ max-width: 800px;
 <li class="SiteIntro">
 <h2>WELCOME TO KNIGHTS OF THE FORCE 2.1</h2>
 </li>
-<li class="News">
-<h2><b><u>NEWS</u></b></h2>
-<p>To anyone who might be interested, we are currently in production of our next update, which we plan to feature new improvements to the many NPCs that are a part of this mod. However, we can't progress
-very far without your help; we want your feedback and suggestions. Please feel free to send Linken any suggestions you may have regarding NPC improvements you would like to see. We're looking forward to seeing
-what you all have to say.<br><br>Thank you for following the development of Knights of the Force 2.1, and may the Force be with you.</p>
-<p><b><u>CONTACT LINKEN:</b></u><br><br><a href="https://jkhub.org/user/319-linken/">JKHUB</a>
-<br><a href="http://www.moddb.com/members/linken233">MODDB</a>
-<br><a href="https://discord.gg/eJDds24">DISCORD</a>
-</li>
 <li class="Updates">
-<h2>KOTF Manual Updates</h2>
+<h2>Knights of the Force Manual Updates</h2>
 <p><b><i>These updates are only for those who are unable to use the launcher and updater. Use the updater if you would like.</p></b></i>
 <a href="https://drive.google.com/open?id=1vei0cQPHkVCM8G7fUDHQlDnW17eCjnZm"><p><u>UPDATE - 3/13/18</u></p></a>
+<a href="https://drive.google.com/open?id=1E4lu3L5O2daVRa1MD36z7vswqFOcYKOX"><p><u>UPDATE - 7/23/18</u></p></a>
 </li>
-<li class="Patch">
-<h2>Patch Notes</h2>
-<p></p>
-<h3><u>Patch Notes - 3/13/18</u></h3>
 
+<li class="PatchNotes">
+<h3><u>Patch Notes - 07/23/18</u></h3>
+<p style="color:rgb(255,0,0) "><font size = 5><b>***The following files must be deleted from your KotF folder: "KotF_Skins_Ep7" and "KotF_NPC_Ep7", these files will be replaced.***</p></b></style></font size>
 <h3><u><b>GENERAL IMPROVEMENTS</b></u></h3>
-<p>- Dismemberment has been fixed, you may now chop up your victims to your heart's content.
-<br>- Dismemberment probabilities have been changed to only offer two values, low or high.</p> 
+<p>- Free NPC Alignment choice has arrived, you may now spawn any NPC of your choice with one of six alignments and behaviors to choose from.
+<br>- The NPC limit has been increased once again, you may now populate the mod with more of your own characters.
+<br>- <b>NEW MISSION: Revan vs. Malak;</b> Relive the final duel of Knights of the Old Republic against Darth Malak aboard the mysterious Star Forge and save the galaxy!</p>
 
 
-<h3><u><b>MULTIPLAYER</u></b></h3>
-<p>- Players engaging in a duel will be granted full health and shields for the battle ahead.
-<br>- After a duel has ended, the victor will be granted full health and shields.
-<br>- Players can now roll with a gun as their active weapon.
-<br>- Players should now be able to spawn more NPCs while in Multiplayer.
-<br>- Fixed an exploit which allowed for players to crash other players with the Training Lightsaber.</p>
+<h3><u><b>New Characters Added/Model Updates/New NPC Variations</b></u></h3>
+<h3><u><i>THE SITH EMPIRE</i></u></h3>
+<p>- Arcann
+<br>- Ashara Zavros
+<br>- Darth Marr
+<br>- Darth Talon
+<br>- Lord Kallig
+<br>- Lord Larith
+<br>- Lord Scourge
+<br>- Ludo Kressh
+<br>- Marka Ragnos
+<br>- Naga Sadow
+<br>- Thexan
+<br>- Tulak Hord
+<br>- Uthar Wynn
+<br>- Valkorion
+<br>- Vaylin</p>
 
-<h3><u><b>DUEL OF THE FATES</b></u></h3>
-<p>- Increased waiting time after selecting a character to play as so the character's dialogue can fully play.</p>
+<h3><u><i>THE GALACTIC REPUBLIC</i></u></h3>
+<p>- Abednedo Jedi
+<br>- Agen Kolar: Hood + Clone Wars (New variants)
+<br>- Alderaan Guard
+<br>- Breha Organa
+<br>- Bultar Swan
+<br>- Captain Gregar Typho
+<br>- Clone Cadet: Clone Civilian + Clone Civilian Cadet (New variants)
+<br>- Clone Naval Officer: Clone Medical Officer + Clone Medical Officer w/ hat (New variants)
+<br>- Coruscant Underworld Police
+<br>- Depa Billaba: The Phantom Menace (New variant)
+<br>- Eeth Koth: Hood + Clone Wars (New variants)
+<br>- Finis Valorum
+<br>- Kit Fisto: Clone Wars (New variant)
+<br>- Oppo Rancisis
+<br>- Que-Mars Redath-Gom
+<br>- Rig Nema
+<br>- Roron Corobb
+<br>- Saesee Tiin: Hood + Clone Wars (New variants)
+<br>- Tarados Gon
+<br>- Tsui Choi
+<br>- Zao</p>
 
-<h3><u><b>NPCS</b></u></h3>
-<h3><u>The Galactic Republic</u></h3>
-<p>- Tiplee and Tiplar have discovered the importance of communication. They will now talk properly.
+<h3><u><i>THE SEPARATIST ALLIANCE</i></u></h3>
+<p>- Neimodian Guard: Neimodian Security (New variant)</p>
 
-<h3><u>The Separatist Alliance</u></h3>
-<p>- Asajj Ventress went back for some extra training under Count Dooku; her health has been increased from 300 to 400.
-<br>- Durge has grown throughout the Clone Wars, and has been rescaled from 150 to 169.
-<br>- Darth Maul's shirtless variant (with natural legs) has been given his staff instead of a single-bladed lightsaber.
-<br>- Savage Opress went back to Dathomir to complete his transformation; he has been rescaled from 106 to 123.
-<br>- Savage Opress upgraded his lightsaber with his new height change, the blade is now longer to compensate for his height.
-<br>- Count Dooku was most displeased with the size of the Super Battle Droids. After some work on the manufacturing line, they have been rescaled from 109 to 125.</p>
+<h3><u><i>THE REBEL ALLIANCE</i></u></h3>
+<p>- Han Solo: Solo - A Star Wars Story (New variant)</p>
 
-<h3><u>The Galactic Empire</u></h3>
-<p>- Alora realized that it was way too hot on Taspir III and decided to take off her winter gear and dress in something more appropriate to the climate.
-<br>- Galak Fyyar felt very cramped in his Cortosis armor and commanded his engineers to rescale it from 100 to 110.
-<br>- Galak Fyyar found his voice outside of his armor and will now talk.
-<br>- Galak's Cortosis armor variant has been changed from CLASS_GALAK_MECH (which doesn't exist in Jedi Academy's code) to CLASS_HAZARD_TROOPER.
-<br>- The 8th Brother has discovered the importance of being vocal, and will now talk.</p>
 
-<h3><u><b>MAPS</u></b></h3>
+<h3><u><i>THE GALACTIC EMPIRE</i></u></h3>
+<p>- Galen Marek: Lord Starkiller (New variant)</p>
 
-<h3><u>Carbon City</u></h3>
-<p>- Added missing textures: models/map_objects/imp_mine/crate_open and models/map_objects/kejim/crate_01
-<br>- Sound file Re-Rendering with mono option</p>
+<h3><u><i>THE RESISTANCE</i></u></h3>
+<p>- Finn: The Last Jedi (New variant)
+<br>- Poe Dameron: The Last Jedi (New variant)
+<br>- Rey: The Last Jedi (New variants)
+<br>- Luke Skywalker: Crait + Crait w/ Hood (New variants)
+<br><b><i>**Full customization has been removed for Poe Dameron and Rey**</i></b>
+</p>
 
-<h3><u>Tatooine Duel</u></h3>
-<p>- With the release of a new KotF OpenJK build, TatooineDuel can now be accessed without crashing. It is now free to choose in the map selection menu.</p>
+<h3><u><i>THE FIRST ORDER</i></u></h3>
+<p>- Armitage Hux
+<br>- First Order Officer
+<br>- Kylo Ren: Mask w/ no hood + The Last Jedi (New variants + model update)
+<br>- Praetorian Guard
+<br>- Supreme Leader Snoke</p>
 
-<h3><u>Invisible Hand (v1)</u></h3>
-<p>- The Invisible Hand map has been changed from its free for all version to its siege version for use in Single Player. It is no longer greyed out.</p>
+<h3><u><i>PIRATES</i></u></h3>
+<p>- Black Sun Mercenary
+<br>- Sidon Ithano</p>
 
-<h3><u>Naboo Hills</u></h3>
-<p>- The map no longer crashes on startup.
-<br>- Replaced missing vehicles due to renames. (Droid Starfighter and Clone Gunship)</p>
+<h3><u><i>BOUNTY HUNTERS</i></u></h3>
+<p>- Sugi</p>
 
-<h3><u>Kashyyyk</u></h3>
-<p>- Replaced missing vehicles due to renames. (STAP and Droid Starfighter)</p>
+<h3><u><i>CIVILIANS</i></u></h3>
+<p>- Kabe</p>
 
-<h3><u>Trade Federation Ship v1</u></h3>
-<p>- Fixed an issue where Droid Starfighters would float after respawning in the hangar.</p>
+<h3><u><i>MANDALORIANS</i></u></h3>
+<p>- Bo-Katan Kryze</p>
 
+
+<h3><u><b>NPCs Removed</u></b></h3>
+<p><i><b>The following NPC variations have been removed in lieu of the new free choice system</i></b></p>
+<h3><u><i>THE OLD REPUBLIC</i></u></h3>
+<p>- Dustil Onasi (Light Side)
+<br>- Juhani (Dark Side)
+<br>- Legacy Jedi</p>
+
+<h3><u><i>THE SITH EMPIRE</i></u></h3>
+<p>- A'sharad Hett (Dark Side)
+<br>- Cade Skywalker (Dark Side)
+<br>- Kyp Durron (Dark Side)
+<br>- Ulic Qel-Droma (Dark Side)
+<br>- Yuthura Ban (Light Side)
+<br>- Legacy Sith</p>
+
+<h3><u><i>THE GALACTIC REPUBLIC</i></u></h3>
+<p>- 212th Attack Battalion: Trooper, Air Recon, Grenadier, Heavy, Shotgun, Sniper (Order 66)
+<br>- 21st Nova Corps (Order 66)
+<br>- 327th Star Corps (Order 66)
+<br>- 41st Elite Corps: Trooper, Scout Trooper, Sniper (Order 66)
+<br>- 501st Legion: Trooper, ARC Trooper, Assassin, Sharpshooter, Demolitions, Heavy, Sergeant, Air Recon (Order 66)
+<br>- 91st Recon Corps: Trooper, Lieutenant (Order 66)
+<br>- ARC Trooper: Trooper, Sergeant, Lieutenant (Order 66)
+<br>- Captain Deviss (Order 66)
+<br>- Clone Trooper: Phase 2 Armor (Order 66)
+<br>- Commander Bacara (Order 66)
+<br>- Commander Bly (Order 66)
+<br>- Commander Cody (Order 66)
+<br>- Commander Fox (Order 66)
+<br>- Commander Gree (Order 66)
+<br>- Commander Keller (Order 66)
+<br>- Commander Neyo (Order 66)
+<br>- Desert Clone Trooper: Trooper, Demolitions, Sniper, Jetpack, Security, Medic, Shotgun, Lieutenant, Captain, Major(Order 66)
+<br>- Hound (Order 66)
+<br>- Kamino Security: Trooper, Commander (Order 66)
+<br>- Tup (Order 66)</p>
+
+<h3><u><i>PIRATES</i></u></h3>
+<p>- Hondo Ohnaka (Light Side)</p>
+
+<h3><u><i>MANDALORIANS</i></u></h3>
+<p>- Mandalorian Neo-Crusaders: Blue, Red, Gold, Silver (Ally)
+<br>- Shae Vizla (Ally)</p>
+
+<h3><u>NPC Changes</u></h3>
+<h3><u><i>THE OLD REPUBLIC</i></u></h3>
+<p>- Atton Rand felt his Jedi training wasn't adequate enough, his health has been increased from 200 to 300, and his force energy has been increased from 150 to 200.
+<br>- Bao-Dur returned to Meetra Surik for some additional training, his health has been increased from 200 to 300, and his force energy has been increased from 150 to 200.
+<br>- Bao-Dur was displeased that he was forced to use an EMP gun. He has since requisitioned himself a proper blaster rifle.
+<br>- Bastila Shan grew in strength since she confronted Darth Revan. Her health has been increased from 300 to 400, and her force energy has been increased from 200 to 250.
+<br>- Bastila Shan has disappointed Darth Malak for the last time, increasing her abilities with Force Grip and Force Lightning. Her Force Grip has been increased from 2 to 3, and her Force Lightning has been increased from 1 to 2.
+<br>- Brianna returned to Meetra Surik for some additional training, her health has been increased from 200 to 300, and her force energy has been increased from 150 to 200.
+<br>- HK-47 demanded a better weapon to accomodate for his desire to eliminate any meatbag opposition. His weapon has been changed from a blaster rifle to a repeater.
+<br>- Queen Talia's training has increased in ferocity, her health has been increased from 300 to 400. 
+<br>- Vrook Lamar, hardened from the Jedi Civil War, has grown in strength. His NPC class has been changed from CLASS_JEDI to CLASS_KYLE.
+<br>- Vandar Tokare performed some maintenance on his lightsaber, changing out his green Lightsaber crystal to a blue one.</p>
+
+<h3><u><i>THE SITH EMPIRE</i></u></h3>
+<p>- A'sharad Hett found a new pair of Lightsabers more appropriate to the time period. His lightsabers have been changed to Shaak Ti's hilt.
+<br>- Darth Bane suddenly got much tougher to kill, his health has been increased from 400 to 500 and his force energy has been increased from 250 to 300.
+<br>- Darth Krayt's strength has given him great power. His health has been increased from 400 to 500 and his force energy has been increased from 250 to 300.
+<br>- Darth Malgus remembered to stand up straight, his height has been increased from 105 to 125.
+<br>- Darth Revan grew in strength before, during, and after the Mandalorian Wars. His health for his Sith Lord and Jedi Knight variants has been increased from 300 to 400, and his force energy has been increased from 200 to 250.</p>
+
+<h3><u><i>THE GALACTIC REPUBLIC</i></u></h3>
+<p>- Ahsoka Tano grew slightly weaker since her confrontation with Darth Vader on Malachor, her NPC class has been changed from CLASS_LUKE to CLASS_JEDI, but her health has been increased from 400 to 500, and her force energy has been increased from 250 to 300.
+<br>- Anakin Skywalker's power has grown during and since the Clone Wars. His health has been increased from 400 to 500 and his force energy has been increased from 250 to 300.
+<br>- Barriss Offee remembered she's a traitor to the Jedi Order. Her dark variants will now properly attack anyone daring to follow the light side. Additionally, her NPC class has been changed from CLASS_JEDI to CLASS_REBORN.
+<br>- As Battlemaster of the Jedi Order, Cin Drallig believed he should be one of the toughest Jedi, his health has been increased from 300 to 500, and his force energy has been increased from 200 to 300.
+<br>- Darth Plagueis could use the Force to influence the midichlorians to give himself life. He had such a knowledge of the dark side, he could even increase his health from 400 to 500, and his force energy from 250 to 300.
+<br>- Mas Amedda will no longer attempt to fight back if attacked, preferring to not get involved with open conflict.
+<br>- Obi-Wan Kenobi's strength has grown during and since the Clone Wars. His health has been increased from 400 to 500 and his force energy has been increased from 250 to 300.
+<br>- Yoda's short height has proven to be a slight disadvantage against most Force-wielding enemies, he is now immune to Force Powers.</p>
+
+<h3><u><i>THE SEPARATIST ALLIANCE</i></u></h3>
+<p>- Darth Maul's fighting style has changed. He will no longer use the Tavion style, and can now use the Strong style.
+<br>- General Grievous was very displeased with his cybernetic body and demanded an upgrade. His health has been increased from 300 to 500, and his force energy has been increased from 200 to 300.</p>
+
+<h3><u><i>THE GALACTIC EMPIRE</i></u></h3>
+<p>- Emperor Palpatine threw away his lightsaber, feeling that he no longer needed it. Palpatine will now only fight using the Force. Additionally, given his new fighting style, his health has been increased from 500 to 2000, his force power has been increased from 300 to 600, and is now prepared to resist most blasters and force powers.</p>
+
+<h3><u><i>THE RESISTANCE</i></u></h3>
+<p>- Rey's newfound abilities with the Lightsaber have given her a greater strength. Her health has been increased from 300 to 400, and her force energy has been increased from 200 to 250 on any variant where she wields a Lightsaber.</p>
+
+<h3><u><i>THE FIRST ORDER</i></u></h3>
+<p>- After being humiliated on Starkiller Base, Captain Phasma upgraded her armor, she is now immune to blaster fire from most weapons.
+<br>- Kylo Ren has been humilated for the last time, his health has been increased from 300 to 400, his force energy has been increased from 200 to 250, and his NPC class has been changed from CLASS_REBORN to CLASS_SHADOWTROOPER.</p>
+
+<h3><u>NEW MAPS</u></h3>
+<p>- Alzoc III Capital
+<br>- Ancient Outpost
+<br>- Apcotyl Temple
+<br>- Casa De Los Parias
+<br>- Coruscant Speedway
+<br>- Mos Espa Outskirts
+<br>- Tatooine RPG
+<br>- TOR Sith Empire Dreadnought</p>
+
+<h3><u>BIOGRAPHY CHANGES</u></h3>
+<h3><u><i>THE REBEL ALLIANCE</u></i></h3>
+<p>- Ezra Bridger's biography has been updated to reflect events that took place during the 4th season of Star Wars: Rebels.
+<br>- Kanan Jarrus' biography has been updated to reflect events that took place during the 4th season of Star Wars: Rebels.
+</p>
+<h3><u><i>THE GALACTIC EMPIRE</i></u></h3>
+<p>- Grand Admiral Thrawn's biography has been updated to reflect events that took place during the 4th season of Star Wars: Rebels.</p>
+
+<h3><u><i>THE RESISTANCE</u></i></h3>
+<p>- Rey's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.
+<br>- Finn's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.
+<br>- Poe Dameron's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.
+<br>- General Leia Organa's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.
+<br>- Luke Skywalker's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.</p>
+
+<h3><u><i>THE FIRST ORDER</u></i></h3>
+<p>- Kylo Ren's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.
+<br>- Captain Phasma's biography has been updated to reflect events that took place during Star Wars Episode VIII: The Last Jedi.</p>
+
+<h3><u><i>CIVILIANS</u></i></h3>
+<p>- Jar Jar Binks' biography has been edited to prevent the text from exiting the bounds of the biography box.</p>
+
+<h3><u>NEW LIGHTSABERS</u></h3>
+<p>- Ashara Zavros
+<br>- Lord Kallig
+<br>- Lord Scourge
+<br>- Tulak Hord</p>
+
+<h3><u>NEW SOUNDS</u></h3>
+<h3><u><i>CHARACTERS</u></i></h3>
+<p>- Captain Phasma
+<br>- Darth Maul
+<br>- Finn
+<br>- Poe Dameron
+<br>- Rey</p>
+
+<h3><u><i>VEHICLES</u></i></h3>
+<p>- Droideka
+<br>- N-1 Starfighter</p>
+
+<h3><u><i>WEAPONS</u></i></h3>
+<p>- A280 Blaster Rifle
+<br>- E-5 Blaster Rifle
+<br>- EE-3 Blaster Carbine Rifle
+<br>- Electrostaff
+<br>- WESTAR-34 Blaster Pistol</p>
+
+<h3><u>MISCELLANEOUS CHANGES</u></h3>
+<p>- The Resistance Logo has been changed to a new orange color scheme.
+<br>- Added a new Notarget option in the NPC spawner menu.
+<br>- New main menu background picture.
+<br>- Mission briefings have been added for T1_INTER and YAVIN1B.
+<br>- Bowcaster bolts were changed from red to green.</p>
 </li>
+
 <li class="KotFSM">
 <h2>FOLLOW US</h2>
 <p><a href="https://discord.gg/eJDds24">Discord</a>
@@ -134,5 +322,5 @@ what you all have to say.<br><br>Thank you for following the development of Knig
 <br><a href="https://jkhub.org/forum/144-knights-of-the-force/">JKHub</a></p>
 </li>
 </ul>
-<body>
+</body>
 </html>
