@@ -11,12 +11,9 @@ box-sizing: border-box;
 }
 body
 {
-color: #aaaaaa;
-background: #2e3841;
+color: #9D9CFA;
+background: #282651;
 font-family: sans-serif;
-background-image: url("https://downloops.com/wp-content/uploads/edd/2017/05/Starfield-Stars-Universe-FlyBy-Motion-Background-Video-Loop-Sample2-1.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
 }
 p:last-child
 {
@@ -37,12 +34,12 @@ border: none;
 cursor:pointer;
 overflow: hidden;
 outline:none;
-color: #FFEEDD;
+color: #9D9CFA;
 font-size: 11pt;
 }
 a
 {
-color: #FFEEDD;
+color: #9D9CFA;
 }
 .oldPatch
 {
@@ -50,7 +47,7 @@ display:none;
 }
 li
 {
-background: #3c4b58;
+background: #282651;
 margin-bottom: 1em;
 padding: 1em;
 }
@@ -64,7 +61,7 @@ max-width: 800px;
 <body>
 <ul>
 <li class="SiteIntro">
-<h2>WELCOME TO KNIGHTS OF THE FORCE 2.1</h2>
+<h2><img src="https://cdn.discordapp.com/attachments/321129730302541827/472522275287990282/banner.png" alt="Welcome to Knights of the Force"></h2>
 </li>
 <li class="Updates">
 <h2>Knights of the Force Manual Updates</h2>
@@ -75,7 +72,7 @@ max-width: 800px;
 
 <li class="PatchNotes">
 <h3><u>Patch Notes - 07/23/18</u></h3>
-<p style="color:rgb(255,0,0) "><font size = 5><b>***The following files must be deleted from your KotF folder: "KotF_Skins_Ep7" and "KotF_NPC_Ep7", these files will be replaced.***</p></b></style></font size>
+<p><font size = 5><b>***The following files must be deleted from your KotF folder: "KotF_Skins_Ep7" and "KotF_NPC_Ep7", these files will be replaced.***</p></b></font size>
 <h3><u><b>GENERAL IMPROVEMENTS</b></u></h3>
 <p>- Free NPC Alignment choice has arrived, you may now spawn any NPC of your choice with one of six alignments and behaviors to choose from.
 <br>- The NPC limit has been increased once again, you may now populate the mod with more of your own characters.
