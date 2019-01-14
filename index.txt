@@ -73,37 +73,17 @@ max-width: 800px;
 </li>
 
 <li class="PatchNotes">
-<h3><u>Patch Notes - 08/29/18</u></h3>
-<h3><u><b>GENERAL IMPROVEMENTS</b></u></h3>
-<p>- Multiplayer is now open to all! Knights of the Force Multiplayer will be compatible with almost all pre-existing multiplayer mods.
-<br>- <b>NEW NPC TEAM: SOLO;</b> Any NPC spawned with this team will fend for only themselves and will attack everyone.</p>
+<h3><u>Patch Notes - 01/14/19</u></h3>
 
-<h3><u><b>NPC IMPROVEMENTS</u></b></h3>
-<h3><b><i><u>THE GALACTIC REPUBLIC</b></i></u></h3>
-<p>- Ahsoka Tano found the right schematics for her lightsabers she used prior to the Galactic Civil War. She is now using the correct, canonical lightsabers.</p>
+<h3><u><b>MISSION IMPROVEMENTS</u></b></h3>
 
-<h3><b><i><u>THE GALACTIC EMPIRE</b></i></u></h3>
-<p>- Juno Eclipse's Rebel NPC variant has been removed in lieu of the NPC Free Choice System.</p>
-
-<h3><b><i><u>BOUNTY HUNTERS</b></i></u></h3>
-<p>- Boba Fett stashed away his super-mega-invincible-badass plot armor somewhere on Ord Mantell and forgot to take it with him. Boba Fett will no longer be unkillable except during his campaign mission.</p>
-
-<h3><u><b>NEW LIGHTSABERS</u></b></h3>
-<p>- Ahsoka Tano (Star Wars: Rebels)
-<br>- Darth Maul (Star Wars: Rebels)</p>
-
-<h3><u><b>LIGHTSABER CHANGES</u></b></h3>
-<p>- General Grievous' four armed lightsabers have reduced damage to account for damage balance.
-<br>- The CIS plugged the Magnaguard's electrostaves in the wrong outlet. They will now do reduced damage.</p>
-
-<h3><u><b>MULTIPLAYER</b></u></h3>
-<p>- SFX Lightsabers have been removed from Multiplayer to allow for compatibility with other mods.
-<br>- All KotF weapons have been removed from Multiplayer to allow for compatibility with other mods.
-<br>- RGB Lightsabers have been removed from Multiplayer to allow for compatibility with other mods.
-<br>- The NPC limit in Multiplayer has been increased to allow for the presence of all current npcs developed.</p>
-
-<h3><u><b>MISCELLANEOUS CHANGES</b></u></h3>
-<p>- Sound fixes for certain characters and weapons have been implemented.</p>
+<h3><b><i><u>REVAN VS. MALAK</b></i></u></h3>
+<p>- Revan is no longer a mute, and his dialogue is now fully voiced. Revan's voice was provided by Kevin Smets, the voice behind Logan Starr/Revan in the KOTOR Trilogy.
+<br>- Revan's appearance has been changed to his Jedi appearance.
+<br>- Revan's initial walk to Malak will no longer stutter and will be smooth.
+<br>- Malak will now ignite his lightsaber immediately during his flourish.
+<br>- Revan will no longer get distracted by whatever he was looking at before, and will now face toward the oncoming ambush.
+<br>- The player will match Revan's viewing angle and will be facing the correct direction in the respective situation.</p>
 
 </li>
 
