@@ -64,7 +64,11 @@ max-width: 800px;
 <h2><img src="http://cdn.discordapp.com/attachments/321129730302541827/473236887901962265/banner.png" alt="Welcome to Knights of the Force"></h2>
 
 </li>
+<li class="News">
+<h3><u>NEWS</u></h3>
 
+<p>The Update has been re-uploaded on Google Drive. It is unknown what caused the original issue at this time. You may re-download the update at your leisure. Thank you for your patience. Keep an eye on this site as an update for the Launcher should be releasing at some point in the near future.</p>
+</li>
 <li class="PatchNotes">
 <h3><u>Patch Notes - 09/09/2019</u></h3>
 
