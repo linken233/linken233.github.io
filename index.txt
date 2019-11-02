@@ -66,21 +66,11 @@ max-width: 800px;
 </li>
 
 <li class="PatchNotes">
-<h3><u>Patch Notes - 09/16/2019</u></h3>
+<h3><u>Patch Notes - 11/01/2019</u></h3>
 
-
-<h3><u><b>MISSION IMPROVEMENTS</u></b></h3>
-
-<h3><u><i><b>YOU HAVE BECOME A RIVAL</u></i></b></h3>
-<p>- During the 1st cutscene, Palpatine will no longer jerk his head suddenly and will now take his time.
-<br>- Added a missing sound for the final unfortunate victims of Sidious's Force Choke.
-<br>- Changed the overall mechanics of stage 1 and 2. You will no longer be required to drain the health of both Maul and Savage in order to progress.
-You will only be required to take down the health of one of the brothers in order to progress.
-<br>- In light of the change to stages 1 and 2, Maul's health in both stages has been increased from 1000 to 1500.
-<br>- In light of the change to stages 1 and 2, and due to the less challenging nature of the two brothers, Savage Opress's health has been increased from 1000 to 2500.
-<br>- Corrected an issue where Savage's corpse would suddenly come back to life. If he's hit, he dies, for real.
-<br>- Savage will now show an effect of the Nightsister magic leaving his body.
-<br>- Created a whole new ending cutscene to overall improve the experience of the ending of the mission. The mission complete message has been removed.</p>
+<h3><u><b>HIGHLIGHTS</b></u></h3>
+<p>- <b>NEW CAMPAIGN: JEDI OUTCAST;</b> Journey through Kyle Katarn's epic quest as he discovers a sinister threat to the New Republic and learns to embrace his destiny as a Jedi Knight. (Jedi Outcast sold separately)
+<br>- <b>NEW BONUS MISSION: JEDI OUTCAST DEMO;</b> Released prior to Jedi Outcast's debut, Kyle Katarn and Jan Ors must work together to neutralize an Imperial Installation on the planet Alzoc III.</p>
 
 
 </li>
