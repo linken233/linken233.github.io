@@ -66,14 +66,9 @@ max-width: 800px;
 </li>
 
 <li class="PatchNotes">
-<h3><u>Patch Notes - 11/01/2019</u></h3>
+<h3><u>NEWS</u></h3>
 
-<h3><u><b>HIGHLIGHTS</b></u></h3>
-<p>- <b>NEW CAMPAIGN: JEDI OUTCAST;</b> Journey through Kyle Katarn's epic quest as he discovers a sinister threat to the New Republic and learns to embrace his destiny as a Jedi Knight. (Jedi Outcast sold separately)
-<br>- <b>NEW BONUS MISSION: JEDI OUTCAST DEMO;</b> Released prior to Jedi Outcast's debut, Kyle Katarn and Jan Ors must work together to neutralize an Imperial Installation on the planet Alzoc III.</p>
-
-
-</li>
+<p>I am pleased to report that the Updater has been reconfigured and appears to be working as intended. We apologize for this major inconvenience, you may download this fix at your leisure. Duel of the Fates is now back under production.</p>
 
 <li class="KotFSM">
 <h2>FOLLOW US</h2>
