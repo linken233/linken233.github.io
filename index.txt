@@ -66,9 +66,27 @@ max-width: 800px;
 </li>
 
 <li class="PatchNotes">
-<h3><u>NEWS</u></h3>
+<h3><u>Patch Notes - 01/05/2020</u></h3>
 
-<p>I am pleased to report that the Updater has been reconfigured and appears to be working as intended. We apologize for this major inconvenience, you may download this fix at your leisure. Duel of the Fates is now back under production.</p>
+<h3><u><b>HIGHLIGHTS</b></u></h3>
+<p>- <b>NEW MISSION: FATE OF THE REPUBLIC;</b> Experience the epic duel from Revenge Of The Sith that began the fall of the Republic. It’s fate lies in your hands. Play as Mace Windu and attempt to arrest or kill Chancellor Palpatine to protect the Republic. Play as Chancellor Palpatine, and fight Mace Windu and his pitiful Jedi band. Later on, as Anakin, you will have the choice to save the Chancellor, or to let Mace Windu do what needs to be done. The fate of the Republic rests on your shoulders. Choose wisely, for the galaxy may never be the same...
+
+<br><br>- <b>MISSION ADDONS: OPERATION KNIGHFALL;</b> Cin Drallig's cut 2nd stage has been completed and added to his story.
+
+<br><br>- <b>FEATURE REMOVAL: ORDER 66;</b> Due to the immense unpopularity of the Order 66 gamemode against Revan, all efforts for future Order 66 missions have been terminated and will no longer be developed. The Order 66 button has been removed from the main menu.</p>
+
+<h3><u><b>NPC IMPROVEMENTS</b></u></h3>
+<h3><u><i><b>THE REBELLION</b></i></u></h3>
+- Ben Kenobi's robed NPC was mishandled and struck down, but did not become more powerful than anyone could possibly imagine. Ben Kenobi's robed NPC will now have its proper appearance.
+
+
+<h3><u><b>NEW MAPS</u></b></h3>
+- kotf_palp (MISSION RELATED MAP, NOT IN MAP MENU) 
+
+<h3><u><b>BUG FIXES</u></b></h3>
+- Miscellaneous bugs have been addressed for Operation: Knightfall for a more smooth experience.
+
+
 
 <li class="KotFSM">
 <h2>FOLLOW US</h2>
