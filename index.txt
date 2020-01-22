@@ -66,7 +66,7 @@ max-width: 800px;
 </li>
 
 <li class="PatchNotes">
-<h3><b><i>IN PREPARATION FOR OUR UPDATER FIXES, ALL UPDATER SERVICES HAVE BEEN DISABLED.</i></b></h3><p></p>
+<h3><b><i>A new version of the launcher has been released. As this is in essence a hard restart of the updater, you will be required to manually download the launcher from your nearest convenient website where Knights of the Force can be downloaded. We appreciate your patience as we've sorted out this issue, and we pray that this never has to happen again.</i></b></h3><p></p>
 <h3><u>Patch Notes - 01/05/2020</u></h3>
 
 <h3><u><b>HIGHLIGHTS</b></u></h3>
