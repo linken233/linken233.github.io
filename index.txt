@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Knights of the Force Updates</title>
+<title>Star Wars: Galactic Legacy Updates</title>
 <style>
 * 
 {
@@ -60,134 +60,560 @@ max-width: 800px;
 </head>
 <body>
 <ul>
-<li class="SiteIntro">
-<h2><img src="http://cdn.discordapp.com/attachments/321129730302541827/473236887901962265/banner.png" alt="Welcome to Knights of the Force"></h2>
-
-</li>
 
 <li class="PatchNotes">
-<h3><u>Update: 04/03/2020</u></h3>
+<h3><u>Star Wars: Galactic Legacy Rebirth - 12/18/2020</u></h3>
 
 <h3><u><b>HIGHLIGHTS</b></u></h3>
-<p>- Duel of the Fates has been completely reworked! Featuring a number of bug fixes and additions to the original mission.
-<br>- <b>NEW EXTENDED ENDINGS: DUEL OF THE FATES:</b>
-<br><t>- <b>OBI-WAN KENOBI:</b> Experience the ending of The Phantom Menace and a brief depiction of Anakin's early days as a Padawan.
-<br><t>- <b>(PARTIALLY IMPLEMENTED) QUI-GON JINN:</b> Discover the story of what may have occured if Qui-Gon survived the events of The Phantom Menace.
-<br><t>- <b>(NOT IMPLEMENTED) DARTH MAUL:</b> With Qui-Gon and Obi-Wan killed, how will the events of the Prequel Trilogy go now?</p>
+<p>- <b>NEW SYSTEM: NPC SKIN SELECTION;</b> While in console, you can now spawn any npc with any available appearance of your choosing.
+<br>- <b>UPDATED SYSTEM: NPC FREE CHOICE;</b> The NPC Free Choice System introduced during Summer 2018 has been completely reworked.
+<br>- <b>NEW EXTENDED ENDING: DARTH MAUL DUEL OF THE FATES;</b> Experience an alternate scenario if Darth Maul had succeeded in defeating Obi-Wan Kenobi and Qui-Gon Jinn.
+<br>- <b>REMOVED MISSION: FATHER VS. SON;</b> Pending a full remaster, Father vs. Son will no longer be accessible.
+<br>- <b>NEW CHALLENGE MODE: ORDER 66;</b> Lead Delta Squad to victory as you travel through time and eliminate targets of interest for the Galactic Empire.
+</p>
+
+
+<h3><u><b>NEW NPC SYSTEMS</b></u></h3>
+<p>- NPC Skin Selection will now be available while spawning any npc through the console.
+<br>- The NPC teams have been changed to no longer take scripts. Available teams are: player, enemy, free, neutral, and solo.</p>
+
+<h3><u><b>MENU/UI CHANGES</b></u></h3>
+<p>- Recreated the entire Lightsaber menu, allowing you to view the saber's freely without scrolling through each model.
+<br>- Each lightsaber featured will include a brief description of the saber's history.
+<br>- The Darksaber blade can now be selected for any lightsaber.
+<br>- Corrected an issue where your character would revert to a stormtrooper after selecting a lightsaber when loading a save game or starting a new game.
+<br>- Recreated the entire NPC spawner menu, allowing you to fully customize most npcs in the game.
 
 <h3><u><b>MISSION IMPROVEMENTS</b></u></h3>
 
+<h3><u><b><i>Jedi Academy Campaign: Weapon Destruction - Ord Mantell</b></i></u></h3>
+<p>- Replaced Tom Kane's performance with alternate dialogue from Temuera Morrison. Updated subtitles to match.</p>
 
-<h3><u><i><b>DUEL OF THE FATES</b></i></u></h3>
+<h3><u><b><i>REVAN VS. MALAK</b></i></u></h3>
+<p>- <b>NEW STAGE ADDED;</b>Utilizing the full power of the Star Forge, Malak will now utilize the fallen Jedi Knights scattered across the arena against you.
+<br>- Due to Revan's model update, Revan's appearance has been changed to his illustrated Galaxy of Heroes appearance.
+<br>- Changed Revan's lightsaber color from blue to purple.
+<br>- Corrected a rare issue where you might have two lightsabers.
+<br>- Utilized a method used in other missions so Revan will now be properly pushed away every single time during the 2nd cutscene.
+<br>- Updated the AI for the ambush enemies to follow you. This should significantly reduce a small annoyance where the enemies would sometimes get stuck underneath the walkway.
+<br>- - Improved the opening cinematic camera work while Revan is approaching Malak.
+<br>- Added a missing music cue after Malak is finished draining as many Jedi as he can.
+<br>- Malak will teleport back to his starting position after the ambush section to avoid the following cutscene breaking or looking strange.
+<br>- A dying Malak will no longer have his lightsaber active.
+<br>- Revan will deactivate his lightsaber while Malak is giving his final dialogue.
+<br>- Moved the end credits camera.
+</p>
 
-<h3><u><i><b>ALL POVs</b></i></u></h3>
-<h3><i><b>DARTH MAUL'S POV HAS NOT BEEN ADDRESSED YET. IT IS STILL THE ORIGINAL MISSION.</b></i></h3>
-<p>- Slightly extended the opening cutscene so Queen Amidala and her guards will actually approach the door.
-<br>- Overall improved music synchronization in opening cutscene.
-<br>- Darth Maul will now better mimic his actions from The Phantom Menace and will now open his eyes and take his time raising his head (his neck was starting to get very stiff).
-<br>- Performed out-of-camera skin changes to prevent the white flash that usually happens with skin changes.
-<br>- After long hours of negotiating, Padmé and her guards will stop performing their group Batman manuever and will now run away properly.
-<br>- Padmé and her guards will now be removed from the game properly instead of being teleported. They will be removed from the game while out of camera.
-<br>- The 1st stage is no longer timed and will now require skill against your opponent/s in order to progress forward.
-<br>- Removed all origin resets for all NPCs, so they should no longer need to teleport.
-<br>- All NPCs for all cutscenes will consist of brand new NPCs and none will be re-used for more than one cutscene.
-<br>- During the transition to stage 2, it should no longer be possible for Qui-Gon to be kicked a vast distance by Maul.
-<br>- Maul will no longer go "sup" to Qui-Gon or look at the player if they're in view.
-<br>- Created a brand new cutscene for the forcefield hallway.</p>
+<h3><u><b><i>THE TRAYUS CORE</b></i></u></h3>
+<p>- Implemented the end credits at the end of the mission
+<br>- Reduced the health of the lightsabers from 600 to 300.
+<br>- If struck during the final phase, Traya will fire lightning for 1 second, greatly reduced from 10 seconds.</p>
 
-<h3><u><i><b>OBI-WAN KENOBI POV</b></i></u></h3>
-<p>- Maul will no longer follow a set path to the platform prior to the "staring contest", he will attack normally and will attempt to flee to his intended destination after 10 seconds.
-<br>- A checkpoint will now fire after Qui-Gon is killed and you will no longer be required to start the entire level over again if you fail to avenge your master.
-<br>- Qui-Gon's lightsaber is now a static model and therefore will no longer be reset when the camera focuses on it.
-<br>- You will now be required to strike Maul within a short period of time to win the mission. Failure to do so will result in a game over.
-<br>- Qui-Gon's final words to Obi-Wan will now be performed in a live cutscene.
-<br>- The Mission Complete message has been removed and will now immediately transition to the next map.
-<br>- Created brand new ending cutscenes to depict the final moments of The Phantom Menace.</p>
+<h3><u><b><i>YOU HAVE BECOME A RIVAL</b></i></u></h3>
+<p>- Implemented the new TCW Darth Sidious appearance
+<br>- Implemented the end credits at the end of the mission
+<br>- Corrected an issue where Maul or Savage Opress would still be active after Stage 1 (depending on who you chose to take out to move to the next stage).</p>
 
-<h3><u><i><b>QUI-GON JINN POV</b></i></u></h3>
-<p>- Maul will no longer follow a set path to the platform prior to the "staring contest", he will attack normally and will attempt to flee to his intended destination after 10 seconds.
-<br>- Maul will no longer go "sup" to Qui-Gon or look at the player if they're in view.
-<br>- Maul now has additional dialogue when his staff turns into two lightsabers, and later when he loses his arm.
-<br>- Created a brand new cutscene and slew of levels to depict what might've happened had Qui-Gon Jinn survived the events of The Phantom Menace.</p>
+<h3><u><b><i>DUEL OF THE FATES (OBI-WAN KENOBI)</b></i></u></h3>
+<p>- Shortened the fate to black transition after Dooku's introduction.</p>
 
-<h3><u><b>CODE CHANGES</b></u></h3>
-<p>- Removed the pre-alpha code for manual blocking from the public release of the mod.
-<br>- Created a new cvar which will allow you to toggle Saber Locking on and off at will, instead of just increasing or decreasing the likelihood of getting into a lock.
-<br>- Created a new script command to allow for disabling Saber Locking during cutscenes in missions.</p>
+<h3><u><b><i>DUEL OF THE FATES (QUI-GON JINN)</b></i></u></h3>
+<p>- Corrected an issue where Qui-Gon's lightsaber wouldn't appear as intended.
+<br>- Shortened the fate to black transition after Dooku's introduction.
+<br>- Utilized a new music track for Dooku's reveal in Level 3.
+<br>- Updated Qui-Gon Jinn's appearance to signify the passage of time.</p>
 
-<h3><u><b>NPC IMPROVEMENTS</b></u></h3>
+<h3><u><b><i>OPERATION: KNIGHTFALL (ALL)</b></i></u></h3>
+<p>- Replaced multiple low-quality music tracks and other missing music tracks.</p>
 
-<h3><u><i><b>THE SITH EMPIRE</b></i></u></h3>
-<p>- Darth Sion used his pain and insatiable rage to make himself taller, at the annoyance of Darth Traya. Sion's height has been increased from 100 to 106.
+<h3><u><b><i>OPERATION: KNIGHTFALL (CLONE TROOPER)</b></i></u></h3>
+<p>- Darth Vader's twin brother, Chad Vader, will no longer appear in the same area together.
 
-
-<h3><u><i><b>THE SEPARATIST ALLIANCE</b></i></u></h3>
-<p>- Darth Maul's lightsaber underwent some corrective maitenance, both blades are now the same size.</p>
-
-<h3><u><b>WEAPON IMPROVEMENTS</b></u></h3>
-<p>- The DC-17 Pistol has been given a new model more accurate to the 2008 Clone Wars TV series.
-<br>- The Repeater has been given a new primary fire effect to more resemble EA'S Star Wars: Battlefront, with corresponding sound.
-<br>- All Lightsaber sounds have been replaced.
-<br>- The E-11 Blaster Rifle sounds have been replaced.
-<br>- The F-11D Rifle sounds have been replaced with new, unique sounds.
-<br>- The DH-17 sounds have been replaced with new, unique sounds.
-<br>- The DC-17 Rifle's alt-fire sound has been replaced.
-<br>- The DC-15 Rifle and Carbine sounds have been replaced.
-<br>- The Disruptor alt-fire sound has been replaced.
+<h3><u><b><i>OPERATION: KNIGHTFALL (CIN DRALLIG)</b></i></u></h3>
+<p>- Cin Drallig will no longer freeze in terror at the immediate sight of the Clone Assassins.
+<br>- Clone Snipers in the Archives will now use sniper rifles, appparently there was a mix up in their armory.
+<br>- In the 1st stage of Palpatine's boss fight, Palpatine will no longer die in 1 hit.
 
 
+<h3><u><b>NEW CHALLENGES</b></u></h3>
+<h3><u><b><i>ORDER 66</b></i></u></h3>
+<p>- Revan
+<br>- Qui-Gon Jinn & Obi-Wan Kenobi
+<br>- Darth Maul</p>
 
-<h3><u><b>BIOGRAPHY UPDATES</b></u></h3>
+<h3><u><b>NEW CHARACTERS</b></u></h3>
 
-<h3><u><i><b>THE OLD REPUBLIC</b></i></u></h3>
-<p>- The Republic Soldier's biography has been updated to not include quotes and is now a properly written description.
-<br>- The Jedi Knight's biography has been updated to not include the Jedi Code and is now a properly written description.</p>
+<h3><u><b><i>THE OLD REPUBLIC</b></i></u></h3>
+<p>- Republic Soldier
 
-<h3><u><i><b>THE SITH EMPIRE</b></i></u></h3>
-<p>- The Sith Lord's biography has been updated to not include the Sith Code and is now a properly written description.
-<br>- The Sith Assassin's biography has been updated to not include a quote, and is now a properly written description.
-<br>- The Sith Dark Assassin's biography has been updated to not include a quote, and is now a properly written description.
-<br>- The Sith Master's biography has been updated to not include a quote, and is now a properly written description.</p>
+<h3><u><b><i>THE SITH EMPIRE</b></i></u></h3>
+<p>- Sith Emperor Vitiate
+<br>- Darth Caedus
+<br>- Lord Kaan
+<br>- A'sharad Hett (Model Update)
+<br>- Darth Krayt (Model Update)
+<br>- Darth Zannah</p>
 
-<h3><u><i><b>THE REBELLION</b></i></u></h3>
-<p>- The Jedi Knight biography has been updated to not include a quote, and is now a properly written description.</p>
+<h3><u><b><i>THE GALACTIC REPUBLIC</b></i></u></h3>
+<p>- Obi-Wan Kenobi (TCW)
+<br>- Anakin Skywalker (TCW)
+<br>- Ahsoka Tano (Mortis Corruption)
+<br>- Khil Jedi Knight
+<br>- Yoda (High Republic + Dagobah)
+<br>- Siri Tachi
+<br>- Queen Amidala</p>
 
-<h3><u><i><b>THE RESISTANCE</b></i></u></h3>
-<p>- Rey's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
-<br>- Finn's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
-<br>- Poe Dameron's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
-<br>- Leia's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.</p>
+<h3><u><b><i>THE SEPARATIST ALLIANCE</b></i></u></h3>
+<p>- Droideka (currently without its signature weaponry)
+<br>- Darth Maul (Rebels)
+<br>- Aquatic Battle Droid
+<br>- Aerial Battle Droid</p>
 
-<h3><u><i><b>THE FIRST ORDER</b></i></u></h3>
-<p>- Kylo Ren's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
-<br>- Armitage Hux's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
-<br>- Supreme Leader Snoke's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
-<br>- The First Order officer's biography has been corrected to prevent any bleeding text outside of the description box.</p>
+<h3><u><b><i>THE REBELLION</b></i></u></h3>
+<p>- PROXY
+<br>- A-Wing Pilot
+<br>- Ben Skywalker
+<br>- Corran Horn
+<br>- FX-7 Medical Droid
+<br>- Jaina Solo
+<br>- Jacen Solo
+<br>- Anakin Solo
+<br>- Kyp Durron (Moved from the Sith Empire to Rebellion)
+</p>
 
-<h3><u><i><b>PIRATES</b></i></u></h3>
-<p>- Ootyr's biography has been changed and updated to prevent text from bleeding outside of the description box.</p>
+<h3><u><b><i>THE GALACTIC EMPIRE</b></i></u></h3>
+<p>- Doctor Aphra
+<br>- Shadow Guard
+<br>- AT-DP Walker
+<br>- Second Sister
+<br>- Purge Trooper
+<br>- Jagged Fel (Moved from the Sith Empire to Galactic Empire)
+<br>- Joruus C'Baoth
+<br>- Lumiya
+<br>- Darth Sidious (The Clone Wars)
+</p>
 
-<h3><u><i><b>BOUNTY HUNTERS</b></i></u></h3>
-<p>- Aurra Sing's biography has been updated to include her death as described in Solo: A Star Wars Story.</p>
+<h3><u><b><i>THE RESISTANCE</b></i></u></h3>
+<p>- Rey (The Rise of Skywalker)
 
-<h3><u><i><b>CIVILIANS</b></i></u></h3>
-<p>- The Jawa's biography has been updated to include further details on the species.</p>
+<h3><u><b><i>THE FIRST ORDER</b></i></u></h3>
+<p>- Sith Trooper
+<br>- Flame Trooper
+<br>- Sith Eternal Fleet Technician</p>
 
-<h3><u><i><b>MANDALORIANS</b></i></u></h3>
-<p>- The Mandalorian's biography has been updated to not include a quote and is now a properly written description. This is the way.</p>
+<h3><u><b><i>BOUNTY HUNTERS</b></i></u></h3>
+<p>- Boba Fett (TCW)
+<br>- C-21 Highsinger</p>
+
+<h3><u><b><i>CRIMINAL UNDERWORLD</b></i></u></h3>
+<p>- EV-9D9</p>
+
+<h3><u><b><i>CIVILIANS</b></i></u></h3>
+<p>- Nightsister Spirit
+<br>- Armored Kel'Dor
+<br>- Pit Droid
+<br>- HK-55
+<br>- Northern Mustafarian
+<br>- Southern Mustafarian
+</p>
+
+<h3><u><b><i>MANDALORIANS</b></i></u></h3>
+<p>- Mandalore the Ultimate
+<br>- Fenn Rau</p>
+
+<h3><u><b><i>INFINITIES</b></i></u></h3>
+<p>- Anakin Skywalker (Sith Apprentice)
+<br>- Alternate Starkiller/Galen Marek appearances (Sith Stalker, General, Utility Gear, etc.)
+<br>- Lord Starkiller
+<br>- Dark Starkiller Clone (Default + Jedi Hunter)
+<br>- Qui-Gon Jinn (Old man)
+<br>- Qui-Gon Jinn (Force Ghost)
+<br>- Darth Sidious (Crazed)
+<br>- Ahsoka Tano (Sith Apprentice)
+<br>- Darth Maul (Sith Master)
+
+<h3><u><b>MODEL/SKIN UPDATES</b></u></h3>
+<h3><u><b><i>THE OLD REPUBLIC</b></i></u></h3>
+<p>- The Republic Troopers were all asked by the kaminoans to turn in their clone armor. They will now appear with a more accurate appearance.</p>
+
+<h3><u><b><i>THE SITH EMPIRE</b></i></u></h3>
+<p>- Renamed skin variants of the Dark Jedi and added a female variation.
+<br>- Removed an awful Darth Malgus model.
+<br>- Removed multiple Darth Sion variations, reduced down to 2; Default and dark.
+<br>- Added Darth Sion's appearance from The Force Unleashed, included matching NPC.
+<br>- Replaced Darth Nihilus with a better-quality model, and removed multiple variations known to cause crashing.
+<br>- Replaced Darth Malak's model with a better-quality model. All skin variations remain.
+<br>- Replaced Darth Revan's model with ports from Knights of the Old Republic and The Old Republic.
+<br>- Removed another version of Darth Revan.
+<br>- Updated Darth Traya with a new model.
+<br>- Updated the location and model for the Sith Assassin and Sith Master.
+<br>- The Sith Dark Assassin has been removed, stricken with a severe case of mistaken identity.
+<br>- Renamed the Sith Empire Trooper "def" skin to "default" to allow for customization.
+<br>- Added new variations to the Sith Assassin, featuring a Sith Apprentice and Sith Master version.
+<br>- Removed the Sith Master as a standalone model.
+<br>- Changed Darth Krayt's NPC Class from CLASS_TAVION to CLASS_DESANN</p>
+
+<h3><u><b><i>THE GALACTIC REPUBLIC</b></i></u></h3>
+<p>- Upon an internal investigation, Commanders Bolton, Falco, Frenken, Rawls, Sohn, and Trackshot have all been arrested and imprisoned under charges of false identities. 
+They can no longer be called upon, and the Clones under their command have been reassigned to different clone commanders.
+<br>- Updated the model of the Jedi Temple Guard.
+<br>- Added the Gran Jedi, introduced in Operation: Knightfall, to the NPC roster.
+<br>- Added the Jedi Brute, introduced in Operation: Knightfall, to the NPC roster.
+<br>- Added Jocasta Nu, introduced in Operation: Knightfall, to the NPC roster.
+<br>- Implemented a hooded and Clone Wars variation for Mace Windu.
+<br>- Corrected the naming of Senator Halle Burtoni's default skin.
+<br>- Updated models and textures for all Obi-Wan Kenobi appearances.
+<br>- Qui-Gon will no longer perform his ventriloquist act and will move his mouth as he talks.
+<br>- A new appearance for Qui-Gon introduced in Qui-Gon's Jinn's extended Duel of the Fates ending is now added to the roster. Improved textures for the effect.
+<br>- Merged the folders together containing Palpatine's appearances into one model folder.
+<br>- Added an alternate appearance for Palpatine introduced in Qui-Gon's Jinn's extended Duel of the Fates ending to the official roster.
+<br>- Removed an unneeded Quinlan Vos model.
+<br>- Merged all Quinlan Vos model folders into one to allow for full customization for the character.
+<br>- Added Serra Keto, introduced in Operation: Knightfall, to the NPC roster.
+<br>- Updated models for Shaak Ti, depicting her Clone Wars, film, and Force Unleashed appearances.
+<br>- Added the Zabrak Jedi Knight, introduced in Operation: Knightfall, to the NPC roster.</p>
+
+<h3><u><b><i>THE SEPARATIST ALLIANCE</b></i></u></h3>
+<p>- Added a new Clone Wars skin variation for Count Dooku.
+<br>- Updated model and textures for Darth Maul.
+<br>- Merged Rune Haako's models together into 1 folder.
+<br>- Updated Savage Opress' model.
+<br>- Removed an outdated General Grievous model</p>
+
+<h3><u><b><i>THE REBEL ALLIANCE</b></i></u></h3>
+<p>- Implemented Galen Marek and his Clone into the Rebel Alliance (provided he was serving them at the time).
+<br>- New appearances for Galen Marek: Jedi Adventurer Robes, Bounty Hunter, Ceremonial Jedi Robes, Corellian Attire, General, Hooded Combat Gear, Industrial Gear, Jungle Combat Gear, Medical Robes, Temple Training Gear, and Utility Gear.
+<br>- Updated Jyn Erso's model and added a new soundset.
+<br>- Added new Dark Forces II appearances for Kyle Katarn, with NPCs depicting his in-game and cutscene appearances.
+<br>- Added a new Mysteries of the Sith appearance for Kyle Katarn.
+<br>- Reverted Luke Skywalker back to his default Jedi Academy appearance in the Single Player Campaign.
+<br>- Implemented a new skin for Luke Skywalker depicting his appearance aboard the 2nd Death Star (white triangle).
+<br>- Implemented new models for Mara Jade's two major phases of her life.
+<br>- Implemented new models for Rahm Kota.
+<br>- Corrected texture and surface issues with Terpfen, Vigo Morn, and Gee.
+<br>- Added Luke's JKO skin to character selection.
+<br>- Vigo Morn has been moved from the Rebellion to the Criminals Faction.</p>
+
+
+<h3><u><b><i>THE GALACTIC EMPIRE</b></i></u></h3>
+<p>- The Empire officially disbanded the supposed Imperial Assassin program and they have been permanently retired from duty.
+<br>- Removed an outdated Starkiller model.
+<br>- Implemented the following Starkiller appearances for his time directly under Darth Vader/Palpatine: Training Gear, Heavy Training Gear, Light Training Gear, Sith Assassin, Early Training Gear, Cybernetic Reconstruction, Lord Starkiller (Tatooine), Sith Stalker (helmet and no helmet).
+<br>- Updated Agent Kallus' model.
+<br>- Updated Grand Admiral Thrawn.
+<br>- Updated the Death Trooper model.
+<br>- Updated Desann's appearance with a new tunic and cape appearance.
+<br>- Updated all Inquisitor models.
+<br>- Updated the Imperial Gunner model.
+<br>- Reverted the Shadowtrooper (Dark Jedi) back to its original appearance.
+<br>- Reverted the Swamptrooper back to its original appearance.</p>
+
+
+<h3><u><b><i>THE RESISTANCE</b></i></u></h3>
+<p>- An extra Finn model has been removed.
+<br>- Updated Han Solo's model.
+<br>- An extra Poe Dameron model has been removed.
+<br>- An extra Rey model has been removed.
+<br>- Added a Rey model depicting her appearance in The Rise of Skywalker.</p>
+
+
+<h3><u><b><i>THE FIRST ORDER</b></i></u></h3>
+<p>- Consolidated Kylo Ren's model to a single folder.
+<br>- Added new helmets for the Praetorian Guard
+<br>- Updated Phasma's model.
+<br>- Removed Snoke's supposed appearance from The Force Awakens</p>
+
+
+<h3><u><b><i>CRIMINALS</b></i></u></h3>
+<p>- Removed fan-character RAB-24.
+<br>- Moved Vigo Morn from the Rebellion to the Criminals.</p>
+
+
+<h3><u><b><i>CIVILIANS</b></i></u></h3>
+<p>- Removed Jar Jar's lone taunt sound as it was often spammed in Multiplayer servers to the annoyance of other players.
+<br>- Changed the skin file names for the Twi'lek twins Teer'aa and Seer'aa accordingly to reduce confusion.
+<br>- Changed a skin file name for the Twi'lek Female to allow for customization.
+<br>- Removed NPC icons for the Twi'lek male.
+<br>- Removed the mine crab and sand creature from character selection.</p>
+
+<h3><u><b><i>MANDALORIANS</b></i></u></h3>
+<p>- Removed a model featuring a SLIGHT difference to the Mandalorian Neo-Crusader helmet.
+<br>- Removed duplicate appearances for Boba Fett and Jango Fett.
+<br>- Removed fan-character Mandalorians.
+<br>- Renamed model variations for the mbmandy model, to better distinguish Jaster Mereel and Montross from each other.
+
+
+
+<h3><u><b>NPC UPDATES</b></u></h3>
+<p><b><i>MOST NPCS HAVE HAD THEIR NPC COUNT REDUCED DUE TO THE NEW SKIN SELECTION SYSTEM.
+<br><br>ORIGINAL NPC COUNT = 931
+<br>NEW NPC COUNT = 701</b></i></p>
+
+
+<h3><u><b><i>THE OLD REPUBLIC</b></i></u></h3>
+<p>- Changed Atris's dark side NPC command from atris_grey to atris_dark.
+<br>- Bao-Dur can no longer be disarmed of his weapon.
+<br>- Changed Dark Bastila's NPC code from Bastila_Dark to Bastila_Shan_Dark
+<br>- Dorak's NPC sounds have been adjusted to his own sounds.
+<br>- Created a new soundset for Juhani.
+<br>- Gave Jolee Bindo access to the strong Lightsaber style, and increased his force jump from 2 to 3, his telekinetic abilities from 1 to 2, his protection and absorption abilities from 1 to 2, and his Force Heal from 2 to 3.
+<br>- Gave Juhani access to the strong Lightsaber style, and increased her force jump from 2 to 3, her telekinetic abilities from 1 to 2, her protection and absorption abilities from 1 to 2, her Force Heal from 2 to 3, and gave her level 2 saber throw.
+<br>- As evidenced in her Wookieepedia article, Kreia's lightsaber has been changed from a single to a double-bladed green lightsaber.
+<br>- Kreia's health has been increased from 300 to 400.
+<br>- Meetra Surik's female NPC code has been changed from Meetra_Surik_F to Meetra_Surik.
+<br>- A male depiction of Meetra Surik's NPC code has been changed from Meetra_Surik_m to Jedi_Exile.
+<br>- Mission Vao's vibroblade NPC code has been changed from mission_vao to mission_vao_vibroblade.
+<br>- Mission Vao's blaster NPC code has been changed from mission_vao2 to mission_vao_blaster.
+<br>- T3-M4's NPC class has been changed from CLASS_R2D2 to CLASS_LANDO.
+<br>- Changed Vandar Tokare's NPC class from CLASS_TAVION to CLASS_LUKE.
+<br>- Added Vandar's ghost appearance as a new NPC.
+<br>- Add Vrook Lamar's KOTOR appearance as a new NPC.
+<br>- Zaalbar can no longer be disarmed of his weapon.
+<br>- Changed Zhar Lestin's sounds from jedi1 to his own.</p>
+
+
+<h3><u><b><i>THE SITH EMPIRE</b></i></u></h3>
+<p>- Ashara built herself a new lightsaber, she will now wield two.
+<br>- The Dark Jedi under Malak were finally briefed on Revan's appearance, and will no longer call everyone they see Revan.
+<br>- Darth Bandon's NPC class was changed from CLASS_REBORN to CLASS_SHADOWTROOPER
+<br>- Replaced Malgus' NPC appearance with the default skin to allow for full customization.
+<br>- Replaced Darth Talon's NPC appearance with the default skin to allow for full customization.
+<br>- Added a new NPC under Darth Talon: Twi'lek Sith.
+<br>- Replaced Jagged Fel's NPC appearance with the default skin to allow for full customization.
+<br>- Updated Saul Karath's soundset.
+<br>- Updated the soundset for the Sith Assassin.
+<br>- Renamed the NPC Code for the Sith Investigator to Sith_Inquisitor_Single and Sith_Inquisitor_Staff.
+<br>- Updated the soundset for the Sith Master and changed his class from CLASS_REBORN to CLASS_SHADOWTROOPER.
+<br>- Changed the Sith Officer's NPC class from CLASS_STORMTROOPER to CLASS_IMPERIAL.
+<br>- Changed the appearance of the Sith Trooper Swordsman to the default appearance to allow for NPC customization.
+<br>- Changed the appearance of the original Sith Warrior NPC to Darth Malak's Sith Warrior.
+<br>- Changed the NPC codes for 2 Sith Warrior NPCs from Sith_Warrior2 and Sith_Warrior3 to Sith_Juggernaut and Sith_Marauder respectively.
+<br>- Vaylin has elected to do away with her second lightsaber and will now only wield one.
+<br>- Changed Visas Marr's lightsaber color permanently to red, her default alignment to the light side, and her class from CLASS_REBORN to CLASS_JEDI.
+<br>- Changed the lightsaber hilt of the Sith Eradicator from single_1 to ashara_zavros.
+<br>- Changed the lightsaber hilt of the Sith Inquisitor (Staff) from dual_3 to centurion.
+<br>- Changed the lightsaber hilt of the Sith Warrior from single_2 to darth_revan.</p>
+
+<h3><u><b><i>THE GALACTIC REPUBLIC</b></i></u></h3>
+<p>- Reverted the 41st Clone Scout Trooper and Sniper to the default appearance to allow for customization.
+<br>- Changed the 501st Trooper's NPC class from CLASS_REBORN to CLASS_STORMTROOPER.
+<br>- Reverted the 501st Demolitions Trooper to the default appearance to allow for customization.
+<br>- Reverted the 501st Heavy Trooper to the default appearance to allow for customization.
+<br>- Reverted the 501st Sergeant to the default appearance to allow for customization.
+<br>- Due to sabotage by the Separatist Alliance, all clone jetpacks have started malfunctioning and will not activate. All Air Recon units have suspended production until further notice.
+<br>- Added a random Twi'lek female Jedi to Aayla Secura's NPC file.
+<br>- Episode II Anakin has received a major buff, his health has been increased from 200 to 400, his maximum force power has been increased from 150 to 250. His offense and defense have been increased from level 2 to level 3. He now has access to the Strong style. His force heal has been increased from 2 to 3. His force protection and absorption has been increased from 1 to 2. Finally, his telekinetic abilities have been increased from level 2 to level 3.
+<br>- Corrected a rare issue where Agen Kolar's NPC would have the wrong lightsaber color.
+<br>- Reverted Bail Organa's 1st NPC to the default appearance to allow for customization.
+<br>- Captain Panaka can no longer be disarmed of his weapon.
+<br>- Implemented Captain Typho's soundset.
+<br>- Clone Trooper Boil's appearances was reverted to default to allow for customization.
+<br>- Phase 1 Clone Trooper's NPC code has been changed from CT_Trooper to Clone_Trooper.
+<br>- Phase 2 Clone Trooper's NPC code has been changed from CT_Trooper_Phase2 to Clone_Trooper_Phase2.
+<br>- Removed the Clone Shock Trooper NPC file (there was already a Clone Shock Trooper NPC from a long time ago).
+<br>- Reverted Waxer to his default appearance to allow for NPC customization.
+<br>- Changed the NPC code of the Clone Advisor from SCU_Advisor to Clone_Advisor.
+<br>- Changed the NPC code of the Clone Pilot from SCU_Pilot to Clone_Pilot.
+<br>- Changed the NPC code of the Clone Shadowtrooper from SCU_ShadowTrooper to Clone_Shadowtrooper.
+<br>- Changed the NPC code of the Clone Commando from SCU_Commando to Clone_Commando.
+<br>- Changed the NPC code of the Clone Scubatrooper from SCU_Scubatrooper to Clone_Scubatrooper.
+<br>- Fixed a rare issue where Jocasta had the wrong lightsaber color. It's now blue as intended.
+<br>- Senator Meena Tills' appearance has been reverted to default to allow for customization.
+<br>- Changed Episode I Obi-Wan Kenobi's NPC class from CLASS_LUKE to CLASS_JEDI and increased his health from 200 to 400 and his maximum force from 150 to 250.
+<br>- Changed Darth Plagueis' NPC class from CLASS_REBORN to CLASS_TAVION
+<br>- Reverted Darth Sidious' NPC to his default appearance to allow for customization.
+<br>- Changed Clone Wars Darth Sidious' NPC code from Darth_Sidious_TCW to Darth_Sidious_Dual
+<br>- Reverted Clone Wars Darth Sidious' NPC to the model's default appearance to allow for customization.
+<br>- Changed the Jedi Brute's lightsaber hilt from the base staff Lightsaber dual_2 to the Jedi Temple Guard's lightsaber.
+<br>- Changed the Zabrak Jedi Knight's lightsaber color to prequel_random (blue or green).
+<br>- Darth Plagueis once again influenced the midichlorians to give himself a better chance at life. He now has access to the Tavion and Desann saber styles.
+<br>- Qui-Gon Jinn's force abilities have been increased: Force Push, Pull, Absorb, and Protect have been increased from level 2 to level 3. His maximum force has been increased from 200 to 250, and his default health has been increased from 300 to 400.</p>
+
+<h3><u><b><i>THE SEPARATIST ALLIANCE</b></i></u></h3>
+<p>- Changed the NPC code for Darth Maul with a broken saber from Darth_Maul_BrokenSaber to Darth_Maul_Single.
+<br>- Added a new NPC variant for Darth Maul depicting him during his final duel against Ahsoka Tano on Mandalore.
+<br>- Changed the NPC code for Shirtless Darth Maul from Darth_Maul_WOTS to Darth_Maul_Shirtless.
+<br>- Increased Asajj Ventress's Force Grip level from 2 to 3 and gave her level 2 Force Rage. Also increased her telekinetic abilities from level 2 to level 3.
+<br>- Changed the appearance of General Grievous' Electrostaff NPC to a different model.
+<br>- Corrected a small typo on the Neimoidian Guard NPC file.
+<br>- Savage Opress has been given the ability to saber throw at level 2.
+<br>- Removed Count Dooku's ability to use the Desann saber style, and adjusted his lightsaber accordingly to only allow for use of the Tavion style.</p>
+
+<h3><u><b><i>THE REBEL 	ALLIANCE</b></i></u></h3>
+<p>- Changed the sounds of the Battle Droid with C-3PO's body to a normal Battle Droid.
+<br>- Equipped the mixed Battle Droid and C-3PO npcs with the E-5 Blaster Rifle.
+<br>- Implemented Cassian Andor's sound set.
+<br>- Implemented Baze Malbus' sound set.
+<br>- Implemented Chirrut Imwe's sound set.
+<br>- Disarmed Chopper and changed his default alignment from player to neutral.
+<br>- Renamed Ezra's model folders and adjusted his NPC accordingly.
+<br>- Changed the lightsaber colors for Starkiller in his Arena gear from Red to Blue.
+<br>- Changed soundsets for Dark Forces and Dark Forces II Kyle Katarn to Dark Forces II Kyle's sounds.
+<br>- Changed Mysteries of the Sith Kyle Katarn's soundset to his Mysteries of the Sith performance.
+<br>- Mysteries of the Sith Kyle Katarn's lightsaber color has been changed from yellow to orange.
+<br>- Changed Mara Jade's NPC class for her Emperor's Hand appearance from CLASS_REBORN to CLASS_SHADOWTROOPER.
+<br>- Changed Kota's soundset to his own.
+<br>- Implemented a random RGB to the Rebel Pilot when you select his rgb skin.
+<br>- Implemented an NPC for Sabine Wren with her wielding the Darksaber.</p>
+
+<h3><u><b><i>THE GALACTIC EMPIRE</b></i></u></h3>
+<p>- Changed the AT-ST Driver's soundset from the Human Mercenary to an Imperial Officer.
+<br>- Removed a duplicate model of Emperor Palpatine and adjusted his model to lord_sidious. Changed to his default appearance to allow for customization.
+<br>- Implemented the 5th Brother's soundset.
+<br>- To allow for immersion within the main Jedi Outcast game, the female imperial officers have been removed from the random NPC spawner.
+<br>- The royal guards have been given a new soundset.</p>
+
+<h3><u><b><i>THE RESISTANCE</b></i></u></h3>
+<p>- Changed Leia Organa's NPC class from CLASS_REBEL to CLASS_JAN.
+<br>- Increased Rey's saber offense level from 1 to 2 for her scavenger NPC.
+<br>- Increased Rey's saber defense level from 0 to 2 for her scavenger NPC.
+<br>- Renamed Rey's NPC command from Rey_Jedi to Rey_Jedi_Training</p>
+
+<h3><u><b><i>FIRST ORDER</b></i></u></h3>
+<p>- Renamed Snoke's NPC Command from Ep7_Snoke and Ep8_Snoke to Snoke.</p>
+
+<h3><u><b><i>PIRATES</b></i></u></h3>
+<p>- Updated the soundset of the Rodian.
+<br>- Updated the soundset of the Tarisian Swoop Gang Member.</p>
+
+
+<h3><u><b><i>BOUNTY HUNTERS</b></i></u></h3>
+<p>- Replaced Boba Fett's soundset with a Temuera Morrison performance.
+<br>- Replaced Jango Fett's soundset with a Temuera Morrison performance.
+<br>- Increased Calo Nord's health from 300 to 500.
+<br>- Replaced the jetpack sounds for Boba Fett, this will translate to all characters with jetpacks.</p>
+
+<h3><u><b><i>CIVILIANS</b></i></u></h3>
+<p>- Changed the NPC class of the Rebel-aligned Bothan from CLASS_REBEL to CLASS_RODIAN.
+<br>- Changed the NPC code of the Rebel-aligned Bothan from Bothan_Rebel to Bothan_Spy.
+<br>- The Civilian Battle Droid can no longer be disarmed of its weapon.
+<br>- Gave the Devaronian the Weequay sound set.
+<br>- Implemented the Civilian Battle Droid's sound set.
+<br>- Gave the Bothan the Rebel sound set.
+<br>- Implemented the Geonosian's sound set.
+<br>- Removed an intended force user Mother Talzin NPC.
+<br>- Updated the soundset for the rancor.
+<br>- Corrected a typo in Tarfull's NPC code and file spelling.</p>
+
+<h3><u><b><i>MANDALORIANS</b></i></u></h3>
+<p>- Changed the NPC code of Pre Viszla's no helmet NPC from Pre_Vizsla2 to Pre_Vizsla_NoHelmet.
+<br>- Mandalorian Neo-Crusaders can no longer be disarmed.
+<br>- Shae Vizla's soundset has been implemented.
+<br>- Changed Ruusaan Skirata's soundset from female_jedi1 to jan.</p>
+
+<h3><u><b>LIGHTSABER ADDITIONS</b></u></h3>
+<p><i><b>All lightsabers where applicable have been applied to their respective characters</i></b></p>
+<p>- Anakin Solo
+<br>- Asajj Ventress (2003 Clone Wars series w/ matching staff)
+<br>- Asajj Ventress (Bounty Hunter)
+<br>- Barriss Offee
+<br>- Boc Aseca
+<br>- Cal Kestis
+<br>- Carrick
+<br>- Darksaber (TCW and Rebels appearances)
+<br>- Darth Malgus (Broken)
+<br>- Darth Maul (TCW)
+<br>- Darth Sion
+<br>- Darth Talon
+<br>- Darth Vader (Episodes III, IV, V, and VI)
+<br>- Eighth Brother
+<br>- Fifth Brother
+<br>- Galen Marek (Ceremonial Jedi Robes)
+<br>- Galen Marek (TFU II)
+<br>- Galen Marek (TFU II, Promotional Artwork)
+<br>- Ganodi
+<br>- Gungi
+<br>- Imperial Knight
+<br>- Jacen Solo
+<br>- Jaina Solo
+<br>- Jerec
+<br>- Jocasta Nu
+<br>- Katooni
+<br>- Kazdan Paratus
+<br>- Kento Marek
+<br>- Leia Organa
+<br>- Luminara Unduli
+<br>- Mara Jade (Emperor's Hand)
+<br>- Maris Brood
+<br>- Maw
+<br>- Orgus Din
+<br>- Petro
+<br>- Pic/Gorc
+<br>- Pong Krell
+<br>- Praetorian Guard
+<br>- Qu Rahn
+<br>- Rey (Episode IX)
+<br>- Rey Palpatine
+<br>- Rey Skywalker
+<br>- Rig Nema
+<br>- Rosh Penin
+<br>- Sariss
+<br>- Seventh Sister
+<br>- Shadow Guard
+<br>- Tavion Axmis
+<br>- Thexan
+<br>- Turanis
+<br>- Yaddle
+<br>- Youngling
+<br>- Yun
+<br>- Zatt</p>
+
+
+
+<h3><u><b>LIGHTSABER CHANGES</b></u></h3>
+<p>- Most hilts have been given updated models thanks to the Plasma pack.
+<br>- Removed the colors given to the Lightsabers in the Saber Selection menu, defaulting back to the original font color.
+<br>- Increased Ahsoka Tano's Rebels Shoto Lightsaber blade length from 20 to 35.
+<br>- If Asajj Ventress staff lightsabers break, the broken hilts will revert to Ventress' actual hilts, respective of their appearances..
+<br>- Increased Asajj Ventress' lightsaber blade length for her staff sabers from 32 to 40.
+<br>- Changed the default color of Ashara Zavros' lightsaber from red to blue.
+<br>- Removed all force power restrictions from the Axe, and reduced the damage of the Axe from 400% lightsaber damage to the normal lightsaber damage.
+<br>- Bastila Shan's lightsaber blades have been increased from 32 to 40, can be thrown, and has had the damage reduced by 20%.
+<br>- Removed Darth Bandon's hilt, replacing it with Bastila Shan's.
+<br>- Darth Maul's staff lightsabers from The Phantom Menace and Rebels have had their blades extended from 32 to 40 and can be thrown, and have had their damage reduced by 20%.
+<br>- Added Darth Maul's staff lightsaber with a single blade, depicting its brief appearance from The Phantom Menace.</p>
+<br>- The lightsaber damage of the Clone Assassin blades have been reduced from 400% to 200%.
+<br>- Changed the saber code and file name for Count Dooku's lightsaber from darth_tyranus to count_dooku.
+<br>- Increased Exar Kun's blade length from 32 to 40 and reduced the damage by 20%.
+<br>- Changed Exar Kun's default blade color from red to blue.
+<br>- Increased the damage of the Gammorrean Axe from 45% to default damage
+<br>- Increased the saber blade length of the Grand Inquisitor's lightsaber from 32 to 40, reduced the damage by 20%, and made the single bladed style Tavion.
+<br>- Set the default color for Jolee Bindo's lightsaber to green, originally random.
+<br>- Set the default color for Juhani's lightsaber to blue, originally random.
+<br>- Corrected a typo in Saesee Tiin's name for his lightsaber and saber code.
+<br>- Increased Satele Shan's blade length from 32 to 40, can be thrown, and has had the damage reduced by 20%</p>
+
+<h3><u><b>NEW/UPDATED CHARACTER SOUNDSETS</b></u></h3>
+<p>- Juhani
+<br>- Aqualish
+<br>- Bith
+<br>- Black Vulkars
+<br>- Sith Assassin
+<br>- Sith Master
+<br>- KOTOR Mercenary
+<br>- Rancor
+<br>- Rodian
+<br>- Royal Guard
+<br>- Saul Karath
+<br>- Sith Apprentice
+<br>- Cin Drallig
+<br>- Uther Wynn</p>
 
 <h3><u><b>MISCELLANEOUS CHANGES</b></u></h3>
-<p>- Added the theme to The Mandalorian as a possible music track to play in the main menu.
-<br>- Jedi Outcast's Demo Mission, Alzoc III, will only be available to players who configured Jedi Outcast to run with Knights of the Force.</p>
-
+<p>- Updated the sounds for the force powers Push, Pull, and Lightning.
+<br>- Removed EA's Battlefront II lightsaber sounds for the default lightsabers.
+<br>- Corrected multiple issues with the Darksaber blade which were causing it to adopt the glow of the RGB saber and a faulty glow texture it was intended to have. The Darksaber can also be selected in any menu as necessary.
+<br>- Removed a faulty menu command from the code introduced with KotF's 2018 NPC system which was causing a lot of crashing.
+<br>- Added The Mandalorian Theme as a possible soundtrack for the Main Menu.
+<br>- Replaced ROTJ's duel theme with the main menu theme from Star Wars: Bounty Hunter.</p>
 
 </li>
 
 <li class="KotFSM">
 <h2>FOLLOW US</h2>
-<p><a href="https://discord.gg/eJDds24">Discord</a>
-<br><a href="http://www.moddb.com/mods/knights-of-the-force-21">Moddb</a>
-<br><a href="https://jkhub.org/forum/144-knights-of-the-force/">JKHub</a></p>
+<p><a href="https://discord.gg/hChZNvJ">Discord</a>
+<br><a href="https://www.moddb.com/mods/swgl">Moddb</a>
+<br><a href="https://www.facebook.com/starwarsgalacticlegacy">Facebook</a></p>
 </li>
 </ul>
 </body>
