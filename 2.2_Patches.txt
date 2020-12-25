@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Knights of the Force Updates</title>
+<style>
+* 
+{
+box-sizing: border-box;
+}
+body
+{
+color: #9D9CFA;
+background: #121131;
+font-family: sans-serif;
+}
+p:last-child
+{
+line-height:1.2;
+margin-bottom: 0;
+}
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+button
+{
+background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;
+outline:none;
+color: #9D9CFA;
+font-size: 11pt;
+}
+a
+{
+color: #9D9CFA;
+}
+.oldPatch
+{
+display:none;
+}
+li
+{
+background: #121131;
+margin-bottom: 1em;
+padding: 1em;
+}
+img
+{
+width: 100%;
+max-width: 800px;
+}
+</style>
+</head>
+<body>
+<ul>
+<li class="SiteIntro">
+<h2><img src="http://cdn.discordapp.com/attachments/321129730302541827/473236887901962265/banner.png" alt="Welcome to Knights of the Force"></h2>
+
+</li>
+
+<li class="PatchNotes">
+<h3><u>Game Update 2.2: Fates</u></h3>
+
+<h3><u><b>HIGHLIGHTS</b></u></h3>
+<p>- Duel of the Fates has been completely reworked! Featuring a number of bug fixes and additions to the original mission.
+<br>- <b>NEW EXTENDED ENDINGS: DUEL OF THE FATES:</b>
+<br><t>- <b>OBI-WAN KENOBI:</b> Experience the ending of The Phantom Menace and a brief depiction of Anakin's early days as a Padawan.
+<br><t>- <b>QUI-GON JINN:</b> Discover the story of what may have occured if Qui-Gon survived the events of The Phantom Menace.
+<br><t>- <b>DARTH MAUL:</b> With Qui-Gon and Obi-Wan killed, how will the events of the Prequel Trilogy go now?</p>
+
+<h3><u><b>MISSION IMPROVEMENTS</b></u></h3>
+
+
+<h3><u><i><b>DUEL OF THE FATES</b></i></u></h3>
+
+<h3><u><i><b>ALL POVs</b></i></u></h3>
+<p>- Slightly extended the opening cutscene so Queen Amidala and her guards will actually approach the door.
+<br>- Overall improved music synchronization in opening cutscene.
+<br>- Darth Maul will now better mimic his actions from The Phantom Menace and will now open his eyes and take his time raising his head (his neck was starting to get very stiff).
+<br>- Performed out-of-camera skin changes to prevent the white flash that usually happens with skin changes.
+<br>- After long hours of negotiating, Padmé and her guards will stop performing their group Batman manuever and will now run away properly.
+<br>- Padmé and her guards will now be removed from the game properly instead of being teleported. They will be removed from the game while out of camera.
+<br>- The 1st stage is no longer timed and will now require skill against your opponent/s in order to progress forward.
+<br>- Removed all origin resets for all NPCs, so they should no longer need to teleport.
+<br>- All NPCs for all cutscenes will consist of brand new NPCs and none will be re-used for more than one cutscene.
+<br>- During the transition to stage 2, it should no longer be possible for Qui-Gon to be kicked a vast distance by Maul.
+<br>- Maul will no longer go "sup" to Qui-Gon or look at the player if they're in view.
+<br>- Created a brand new cutscene for the forcefield hallway.</p>
+
+<h3><u><i><b>OBI-WAN KENOBI POV</b></i></u></h3>
+<p>- Maul will no longer follow a set path to the platform prior to the "staring contest", he will attack normally and will attempt to flee to his intended destination after 10 seconds.
+<br>- A checkpoint will now fire after Qui-Gon is killed and you will no longer be required to start the entire level over again if you fail to avenge your master.
+<br>- Qui-Gon's lightsaber is now a static model and therefore will no longer be reset when the camera focuses on it.
+<br>- You will now be required to strike Maul within a short period of time to win the mission. Failure to do so will result in a game over.
+<br>- Qui-Gon's final words to Obi-Wan will now be performed in a live cutscene.
+<br>- The Mission Complete message has been removed and will now immediately transition to the next map.
+<br>- Created brand new ending cutscenes to depict the final moments of The Phantom Menace.</p>
+
+<h3><u><i><b>QUI-GON JINN POV</b></i></u></h3>
+<p>- Maul will no longer follow a set path to the platform prior to the "staring contest", he will attack normally and will attempt to flee to his intended destination after 10 seconds.
+<br>- Maul will no longer go "sup" to Qui-Gon or look at the player if they're in view.
+<br>- Maul now has additional dialogue when his staff turns into two lightsabers, and later when he loses his arm.
+<br>- Created a brand new cutscene and slew of levels to depict what might've happened had Qui-Gon Jinn survived the events of The Phantom Menace.</p>
+
+<h3><u><i><b>DARTH MAUL POV</b></i></u></h3>
+<p>- During the 1st and 2nd stages, you will now able to choose whether to attack Obi-Wan Kenobi or Qui-Gon Jinn. Both of the Jedi have had their health increased to accomodate for this new change.
+<br>- Created a new cutscene to depict Darth Maul's ending. The Mission Complete message will no longer display.</p>
+
+<h3><u><b>CODE CHANGES</b></u></h3>
+<p>- Removed the pre-alpha code for manual blocking from the public release of the mod.
+<br>- Created a new cvar which will allow you to toggle Saber Locking on and off at will, instead of just increasing or decreasing the likelihood of getting into a lock.
+<br>- Created a new script command to allow for disabling Saber Locking during cutscenes in missions.</p>
+
+<h3><u><b>NPC IMPROVEMENTS</b></u></h3>
+
+<h3><u><i><b>THE SEPARATIST ALLIANCE</b></i></u></h3>
+<p>- Darth Sion used his pain and insatiable rage to make himself taller, at the annoyance of Darth Traya. Sion's height has been increased from 100 to 106.
+
+
+<h3><u><i><b>THE SEPARATIST ALLIANCE</b></i></u></h3>
+<p>- Darth Maul's lightsaber underwent some corrective maitenance, both blades are now the same size.</p>
+
+
+<h3><u><b>BIOGRAPHY UPDATES</b></u></h3>
+
+<h3><u><i><b>THE OLD REPUBLIC</b></i></u></h3>
+<p>- The Republic Soldier's biography has been updated to not include quotes and is now a properly written description.
+<br>- The Jedi Knight's biography has been updated to not include the Jedi Code and is now a properly written description.</p>
+
+<h3><u><i><b>THE SITH EMPIRE</b></i></u></h3>
+<p>- The Sith Lord's biography has been updated to not include the Sith Code and is now a properly written description.
+<br>- The Sith Assassin's biography has been updated to not include a quote, and is now a properly written description.
+<br>- The Sith Dark Assassin's biography has been updated to not include a quote, and is now a properly written description.
+<br>- The Sith Master's biography has been updated to not include a quote, and is now a properly written description.</p>
+
+<h3><u><i><b>THE REBELLION</b></i></u></h3>
+<p>- The Jedi biography has been updated to not include a quote, and is now a properly written description.</p>
+
+<h3><u><i><b>THE RESISTANCE</b></i></u></h3>
+<p>- Rey's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
+<br>- Finn's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
+<br>- Poe Dameron's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
+<br>- Leia's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.</p>
+
+<h3><u><i><b>THE FIRST ORDER</b></i></u></h3>
+<p>- Kylo Ren's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
+<br>- Armitage Hux's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
+<br>- Supreme Leader Snoke's biography has been updated to reflect events that transpired during Star Wars: Episode IX: The Rise of Skywalker.
+<br>- The First Order officer's biography has been corrected to prevent any bleeding text outside of the description box.</p>
+
+<h3><u><i><b>PIRATES</b></i></u></h3>
+<p>- Ootyr's biography has been changed and updated to prevent text from bleeding outside of the description box.</p>
+
+<h3><u><i><b>BOUNTY HUNTERS</b></i></u></h3>
+<p>- Aurra Sing's biography has been updated to include her death as described in Solo: A Star Wars Story.</p>
+
+<h3><u><i><b>CIVILIANS</b></i></u></h3>
+<p>- The Jawa's biography has been updated to include further details on the species.</p>
+
+<h3><u><i><b>MANDALORIANS</b></i></u></h3>
+<p>- The Mandalorian's biography has been updated to not include a quote and is now a properly written description. This is the way.</p>
+
+<h3><u><b>MISCELLANEOUS CHANGES</b></u></h3>
+<p>- Added the theme to The Mandalorian as a possible music track to play in the main menu.
+<br>- Jedi Outcast's Demo Mission, Alzoc III, will only be available to players who configured Jedi Outcast to run with Knights of the Force.</p>
+
+
+</li>
+
+<li class="KotFSM">
+<h2>FOLLOW US</h2>
+<p><a href="https://discord.gg/eJDds24">Discord</a>
+<br><a href="http://www.moddb.com/mods/knights-of-the-force-21">Moddb</a>
+<br><a href="https://jkhub.org/forum/144-knights-of-the-force/">JKHub</a></p>
+</li>
+</ul>
+</body>
+</html>

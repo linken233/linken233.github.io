@@ -1,0 +1,42 @@
+(URGENT) Keep an eye out for those rebels!
+
+(URGENT) Get security!
+
+(DESPERATE) Don't shoot!
+
+(STUBBORN) You won't get away with this, Rebel Scum!
+
+(RESIGNED) Enough of this charade...
+
+(URGENT) We need a repair crew in assembly one!
+
+(CURIOUS) You ever fired a blaster at a living target?
+
+(ANNOYED) No, I mean a sentient being, something that can shoot back.
+
+(ANNOYED) You must be joking, how long has it been since you graduated?
+
+(SEVERELY IRRITATED) What have you been doing this time? Looking the other way?
+
+(ANNOYED) The whole galaxy's the front line now, we aren't waging a full-scale war here, we're hitting the Republic anywhere we can, so be prepared.
+
+(SEVERELY IRRITATED, TO HERSELF) Damn rookies, no wonder we're losing our entire empire.
+
+(CURIOUS) What have you been up to lately?
+
+(IN DISBELIEF) Wow...why did you decide to go there?
+
+(ANGRY) Where is the quarter master?!
+
+(EXTREMELY ANNOYED) The latest shipment didn't have the power converters I requested!
+
+(DISMISSIVE) See that you do!
+
+(DISMISSIVE) Carry on!
+
+--------ANOTHER VOICE--------
+
+(COMMANDING) Fire!
+
+(COMMANDING) Spread out and find him!
+
