@@ -63,6 +63,16 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
+<h3><u>Yet Another Hotfix - 03/15/2021</u></h3>
+<h3><u><b>OVERALL FIXES</b></u></h3>
+<p>- The ISB Agent will now spawn in New Game+ as intended
+<br>- Jedi Master Luke Skywalker will have his ROTJ lightsaber instead of the original
+<br>- Ahsoka Tano (Nomad) will now spawn correctly
+<br>- A'sharad Hett will no longer spawn as a Stormtrooper
+<br>- Kyle Katarn now has his proper lightsaber
+<br>- All base lightsabers should now appear as intended (for real this time)
+<br>- Mister Bones is DEFINITELY no longer a stormtrooper
+
 <h3><u>Hotfix - 03/15/2021</u></h3>
 <h3><u><b>MISSION FIXES</b></u></h3>
 <h3><u><i><b>DUEL OF THE FATES - DARTH MAUL EXTENDED ENDING</b></i></u></h3>
