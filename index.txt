@@ -63,292 +63,45 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
-<h3><u>Yet Another Hotfix - 03/15/2021</u></h3>
-<h3><u><b>OVERALL FIXES</b></u></h3>
-<p>- The ISB Agent will now spawn in New Game+ as intended
-<br>- Jedi Master Luke Skywalker will have his ROTJ lightsaber instead of the original
-<br>- Ahsoka Tano (Nomad) will now spawn correctly
-<br>- A'sharad Hett will no longer spawn as a Stormtrooper
-<br>- Kyle Katarn now has his proper lightsaber
-<br>- All base lightsabers should now appear as intended (for real this time)
-<br>- Mister Bones is DEFINITELY no longer a stormtrooper
+<h3><u>Hotfix - 5/28/2021</u></h3>
 
-<h3><u>Hotfix - 03/15/2021</u></h3>
-<h3><u><b>MISSION FIXES</b></u></h3>
-<h3><u><i><b>DUEL OF THE FATES - DARTH MAUL EXTENDED ENDING</b></i></u></h3>
-<p>- The battle droid meant to inform Wat Tambor of an incoming ship finally recharged itself and will be present during the cutscene, allowing the mission to progress as normal.</p>
-
-<h3><u><b>NPC FIXES</b></u></h3>
-<p>- Ahsoka Tano (Nomad) will now appear as intended.
-<br>- Ermaxis Basil now has access to the Fast style. 
-<br>- Reduced the Imperial Shock Trooper's default health from 150 to 100.
-<br>- Reduced the Death Trooper's default health from 200 to 150.
-<br>- Mister Bones is no longer a stormtrooper.</p>
-
-<h3><u><b>MODEL FIXES</b></u></h3>
-<p>- Emperor Palpatine now has reassigned robe textures, appearing more accurate to the films.</p>
-
-<h3><u><b>UI FIXES</b></u></h3>
-<p>- KOTOR Jedi Knights will now appear as selectable characters in the TOR faction character menu.
-<br>- The World Between Worlds map will now be available to play on.</p>
-
-<h3><u>Patch Notes - 03/13/2021</u></h3>
-
-<h3><u><b>HIGHLIGHTS</b></u></h3>
-<p>-<b>NEW SYSTEM: NEW GAME PLUS;</b> Play through the Jedi Outcast and Jedi Academy campaigns with tougher enemy configurations that change every time you play!
-<br>- <b>NEW CHEAT: NOFORCE;</b> Feeling like a ysalamiri? Tired of being force pushed around? Simply input "noforce" in the console and never be affected by force powers again!</p>
-
-<h3><u><b>SYSTEM UPDATES</b></u></h3>
-<p>- Re-implemented inventory and added controls to the menu.
-<br>- Bacta tanks now function properly as an inventory item to be used on demand, instead of an instantaneous medpack.
-<br>- The picking up dropped lightsabers option will now save after exiting and reloading the game.
+<h3><b><u>FIXES</u></b></h3>
+<p>- Fixed collision issues with Episode VI Luke Skywalker's model which was preventing NPCs and the player from taking direct damage.
+<br>- Implemented a better quality face texture for Episode III Chancellor Palpatine.
 </p>
 
-<h3><u><b>MISSION IMPROVEMENTS</b></u></h3>
-<h3><u><i><b>JEDI OUTCAST - YAVIN: FINAL CONFRONTATION</b></i></u></h3>
-<p>- Re-scored the fight against Desann with music from The Rise of Skywalker.
-<br>- Re-scored the final meeting with Luke Skywalker with music from The Mandalorian.</p>
+<h3><u>Patch Notes - 5/25/2021</u></h3>
 
-
-<h3><u><i><b>JEDI ACADEMY - Cult Investigation: Dosuun</b></i></u></h3>
-<p>- Re-scored the mission with music from Knights of the Old Republic II: The Sith Lords.</p>
-
-<h3><u><i><b>THE TRAYUS CORE</b></i></u></h3>
-<p>- Fixed an issue where Meetra Surik wouldn't display properly as a player character.</p>
-
-<h3><u><b>NEW MAPS</b></u></h3>
-<p>- Episode VI: The Emperor's Throne Room (Movie Battles II version)
-<br>- Rebels: World Between Worlds
-<br>- Episode III: Star Destroyer Bridge
-
-<h3><u><b>NEW/UPDATED CHARACTERS</b></u></h3>
-<h3><u><i><b>THE OLD REPUBLIC</b></i></u></h3>
-<p>- Bowdaar
-<br>- Mical
-<br>- Republic Soldier (Female)
-<br>- Republic Trooper
-<br>- Havoc Squad Trooper (renamed from Republic Trooper)
-<br>- Kira Carsen
-<br>- Jedi Knights (Accurate KOTOR appearance)</p>
-
-<h3><u><i><b>THE SITH EMPIRE</b></i></u></h3>
-<p>- Darth Bane (The Clone Wars)
-<br>- Darth Bane (Model Update)
-<br>- Darth Desolous
-<br>- Darth Havok
-<br>- Darth Phobos
-<br>- Lana Beniko
-<br>- Sith Warrior
-<br>- Zakuul Knight</p>
-
-<h3><u><i><b>GALACTIC REPUBLIC</b></i></u></h3>
-<p>- Captain Fordo (Phase I)
-<br>- Falon Grey
-<br>- Koffi Arana
-<br>- Coruscant Police Droid
-<br>- Queen Amidala (Black Garb)
-<br>- Temple Training Droid
-<br>- Crosshair
-<br>- Hunter
-<br>- Tech
-<br>- Wrecker
-<br>- Bolla Ropal
-<br>- Jocasta Nu (Model Update)
-<br>- Yaddle
-<br>- 91st REcon Corps (Model Update)
-<br>- 332nd Company
-<br>- Ahsoka Tano (Model Update)
-<br>- Ahsoka Tano (Siege of Mandalore)
-<br>- Anakin Skywalker (Jedi Knight) (Model Update)
-<br>- Lord Vader (Model Update)
-<br>- Jaro Tapal
-<br>- Sharad Hett
+<h3><b><u>HIGHLIGHTS</u></b></h3>
+<p>- <b>NEW CINEMATIC: THE TRAGEDY OF DARTH PLAGUEIS;</b> You ever hear the tragedy of Darth Plagueis the Wise? I thought not, it's not a story the Jedi would tell you.
 </p>
 
-<h3><u><i><b>SEPARATIST ALLIANCE</b></i></u></h3>
-<p>- Count Dooku (Dark Ritual)
-<br>- Count Dooku (Jedi Master)
-<br>- Battle Droid (Model Update + New Variants)</p>
+<h3><b><u>MISSION IMPROVEMENTS</u></b></h3>
 
-<h3><u><i><b>REBELLION</b></i></u></h3>
-<p>- Ezra Bridger (Model Update)
-<br>- Ahsoka Tano (The Mandalorian)
-<br>- Young Han Solo
-<br>- Han Solo (Model Update)
-<br>- Stormtrooper Han Solo (Model Update)
-<br>- K-2SO
-<br>- Luke Skywalker (The Mandalorian + Battlefront II)
-<br>- X2
-<br>- Shara
-<br>- Jan Ors (Dark Forces II)
-<br>- Mister Bones
-<br>- Jaden Korr (Jedi Master)
-<br>- Mara Jade (Smuggler)</p>
+<h3><b><i><u>JEDI OUTCAST: ARTUS TOPSIDE</u></i></b></h3>
+<p>- Corrected a small glitch where Kyle Katarn would spawn with an inaccessible lightsaber in his inventory.</p>
 
-<h3><u><i><b>GALACTIC EMPIRE</b></i></u></h3>
-<p>- Admiral Natasi Daala
-<br>- Admiral Pellaeon
-<br>- Imperial Knight
-<br>- ISB Agent, Male + Female
-<br>- KX Security Droid
-<br>- Phase II Dark Trooper
-<br>- Phase III Dark Trooper
-<br>- Second Sister (Model Update + Helmetless variant)
-<br>- Boc Aseca
-<br>- Jerec
-<br>- Maw
-<br>- Sariss
-<br>- Yun
-<br>- Commander Karbin
-<br>- Royal Guard (Model Update)
-<br>- Scout Trooper (Model Update)
-<br>- Storm Commando
-<br>- Nova Trooper
-<br>- General Weir
-<br>- X1
-<br>- Darth Sidious/Emperor Palpatine (Model update + Continuity fix)
+<h3><b><i><u>DUEL OF THE FATES - QUI-GON JINN</u></i></b></h3>
+<p>- Improved a line of Anakin's dialogue that was popping at the end.
+<br>- Changed Captain Rex's appearance to his phase 2 armor.
+<br>- Changed Ahsoka's appearance to her Siege of Mandalore appearance.
+<br>- Corrected multiple issues where Qui-Gon would revert back to a younger appearance and then his older appearance.</p>
 
-</p>
+<h3><b><i><u>DUEL OF THE FATES - DARTH MAUL</u></i></b></h3>
+<p>- Improved some Wat Tambor dialogue to include some additional sound effects from Attack of the Clones.
+<br>- Reduced Count Dooku's health in the final stage from 150 to 100
+<br>- Populated the hangar bay during the bleeding cutscene with Naboo Guard corpses.
+<br>- Improved the ending cutscene after Dooku is defeated.
+<br>- Changed the end credits music.</p>
 
-<h3><u><i><b>THE RESISTANCE</b></i></u></h3>
-<p>- Rey Palpatine</p>
+<h3><b><u><i>NPC SPAWNER</u></i></b></h3>
+<p>- Corrected an issue where Tavion Axmis (Possessed) would attempt to spawn with the incorrect code.
+<br>- Reborn and Saboteurs will now be customizable in the menu and will also spawn correctly.</p>
 
-<h3><u><i><b>THE FIRST ORDER</b></i></u></h3>
-<p>- Kylo Ren (No Cape)
-<br>- Kylo Ren (Reforged Helmet)
-<br>- Ben Solo
-<br>- Sith Trooper (Model Update)
-<br>- Emperor Palpatine (Sith Eternal)
-</p>
-
-<h3><u><i><b>CRIMINALS</b></i></u></h3>
-<p>- Gault Rennow
-<br>- Guavian Death Gang Member
-<br>- Krix Swiftshadow
-<br>- Rodian Male (Back to default + new variant)
-<br>- Rodian Defender
-<br>- Trandoshan (Republic Commando)
-<br>- Trandoshan Elite
-<br>- Trandoshan Mercenary
-<br>- Komari Vosa
-<br>- Talon Karrde
-<br>- Gran (Dark Forces II Appearance)
-<br>- Ponda Baba (Model Update + faction switch)</p>
-
-<h3><u><i><b>BOUNTY HUNTERS</b></i></u></h3>
-<p>- Greedo (Model update)
-<br>- IG-86
-<br>- Todo 360
-<br>- Boba Fett (Resurfaced)
-<br>- Bossk (Model Update)
-<br>- IG-11
-</p>
-
-<h3><u><i><b>CIVILIANS</b></i></u></h3>
-<p>- Clegg Holdfast
-<br>- Dopak
-<br>- Dressellian
-<br>- Givin
-<br>- Ilco Munica
-<br>- Mighella
-<br>- Nom Anor
-<br>- Revanite Convert
-<br>- Talz
-<br>- Tusken Shaman
-<br>- Cobb Vanth
-<br>- Old Daka
-<br>- Taron Malicos
-<br>- Undead Stormtrooper
-<br>- Ultragungan Battle Droid
-<br>- Iago Battle Droid
-<br>- Zorii Bliss
-<br>- Yuuzhan Vong
-</p>
-
-<h3><u><i><b>MANDALORIANS</b></i></u></h3>
-<p>- Din Djarin (Model Update)
-<br>- Tarro Blood
-<br>- Koska Reeves
-<br>- Bo Katan (Model Update)
-<br>- Death Watch Battle Droids
-<br>- Mirta Gev
-<br>- Sintas Vel</p>
-
-<h3><u><i><b>INFINITIES</b></i></u></h3>
-<p>- Linken Anderson
-<br>- Basil Bonehead
-<br>- Awec
-<br>- R0-GR
-<br>- Battle Droid (Concept Art)
-<br>- Poopmaster</p>
-
-<h3><u><b>NPC CHANGES</b></u></h3>
-<h3><u><i><b>THE SITH EMPIRE</b></i></u></h3>
-<p>- Darth Krayt will now wield a red and green lightsaber.</p>
-
-<h3><u><i><b>GALACTIC REPUBLIC</b></i></u></h3>
-<p>- Changed Ahsoka Tano's NPC class from CLASS_JEDI to CLASS_KYLE for her older variants.
-<br>- Corrected an issue where Dual-wielding Anakin Skywalker had an incorrect offhand saber due to an incorrect lightsaber code.
-<br>- Anakin Skywalker (TCW) has been renamed to Anakin Skywalker (General)
-<br>- Ahsoka Tano (Rebels) has been renamed to Ahsoka Tano (Fulcrum)
-<br>- Anakin Skywalker's NPCs depicting his TCW and Episode III appearances will now have Level 3 lightsaber throw.
-<br>- Reduced bounding boxes for Yoda, Even Piell, and Yaddle, allowing them to better connect with their opponents.
-<br>- Mace Windu now has level 1 force rage and level 2 force grip.</p>
-
-<h3><u><i><b>GALACTIC EMPIRE</b></i></u></h3>
-<p>- Some Stormtroopers will now rapidly fire their E-11s.
-<br>- After some careful budgeting, Galak Fyyar was able to reclaim his mechanized battle armor and no longer has to send a cheap droid to fight for him.</p>
-
-<h3><u><i><b>REBELLION</b></i></u></h3>
-<p>- Corrected an issue with Mara Jade's lightsaber while as an emperor's hand where it wasn't appearing correctly.</p>
-
-<h3><u><i><b>BOUNTY HUNTERS</b></i></u></h3>
-<p>- IG-86 droids will rapidly fire their blasters</p>
-
-<h3><u><b>LIGHTSABER UPDATES</b></u></h3>
-<p>- The Sith Sword from the base game now appears as intended.
-</p>
-
-<h3><u><b>MENU/UI CHANGES</b></u></h3>
-<h3><i><u><b>CONTROLS + SETUP</b></i></u></h3>
-<p>- Moved the quick key menu binds from SETUP->SWGL to CONTROLS->QUICK KEYS
-<br>- Added new quality of life additions to the SETUP->SWGL Menu, including the ability to change crosshairs and display health bars above npcs.
-</p>
-
-<h3><i><u><b>CHARACTER MENUS</b></i></u></h3>
-<p>- Corrected an issue where the Eighth Brother's biography was not displaying as intended.
-<br>- Fixed a small glitch with the character menus where the scrollbar would display multiple points.
-<br>- Character menus will no longer display multiple pages for characters that don't exist.
-<br>- Applied the actual armament for the Sith Trooper instead of applying the Praetorian Guard one.
-<br>- Sith Inquisitors are no longer referred to as "Sith Investigators"
-</p>
-
-<h3><i><u><b>MUSIC</b></i></u></h3>
-<p>- Added music featured in Darth Maul's extended ending to the Music menu
-<br>- A Jedi's Fury now plays as intended
-<br>- Music featured in the main menu (such as Sugaan Essena) will now display in the menu.
-<br>- Music featured in Jedi Academy's campaign will now display in the menu.
-
-</p>
-
-
-<h3><i><u><b>NPC SPAWNER</b></i></u></h3>
-<p>- Changed the text color in the NPC menu to remain consistent across the rest of the mod.
-<br>- Fixed a bug with the NPC spawn menu with the spawn button appearing and overlapping on the character selection screen.
-</p>
-
-<h3><i><u><b>LIGHTSABER</b></i></u></h3>
-<p>- Changed the sound effect for lightsaber color selection.
-</p>
-
-<h3><u><b>MISCELLANEOUS FIXES</b></u></h3>
-<p>- Replaced some missing skin textures that were causing some character models to be missing their eyes or hands.
-<br>- Changed Ahsoka Tano's Fulcrum appearance faction from Republic to Rebellion.
-<br>- Refactored some models (previous and new) that weren't loading their textures correctly.</p>
-
-<h3><u><b>KNOWN BUGS</b></u></h3>
-<p>- Ben Solo, Taron Malicos, and Darth Desolous will not have their lightsaber blades.</p>
-
+<h3><b><u>MODEL IMPROVEMENTS</u></b></h3>
+<p>- Fixed a texture issue on quigon_old
+<br>- Adjusted Anakin Skywalker's hair so it's not floating in certain places.
+<br>- Ben Solo's lightsaber blade will now appear as intended.</p>
 </li>
 
 <li class="KotFSM">
