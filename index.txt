@@ -65,7 +65,9 @@ max-width: 800px;
 
 <h3><u>Hotfix - 07/23/2021</u></h3>
 <p>- Brianna's robed variant will now switch on her lightsaber, as intended.
-<br>- Darth Talon's hooded and masked appearances will now appear as intended.</p>
+<br>- Darth Talon's hooded and masked appearances will now appear as intended.
+<br>- Darth Desolous's lightsaber will now appear as intended.
+<br>- Corrected some formatting issues in the end credits, including adding some names and removing duplicates.</p>
 
 <h3><u>Patch Notes - 07/23/2021</u></h3>
 
