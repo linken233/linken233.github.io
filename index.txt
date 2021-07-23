@@ -63,45 +63,310 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
-<h3><u>Hotfix - 5/28/2021</u></h3>
-
-<h3><b><u>FIXES</u></b></h3>
-<p>- Fixed collision issues with Episode VI Luke Skywalker's model which was preventing NPCs and the player from taking direct damage.
-<br>- Implemented a better quality face texture for Episode III Chancellor Palpatine.
-</p>
-
-<h3><u>Patch Notes - 5/25/2021</u></h3>
+<h3><u>Patch Notes - 07/23/2021</u></h3>
 
 <h3><b><u>HIGHLIGHTS</u></b></h3>
-<p>- <b>NEW CINEMATIC: THE TRAGEDY OF DARTH PLAGUEIS;</b> You ever hear the tragedy of Darth Plagueis the Wise? I thought not, it's not a story the Jedi would tell you.
+<p>- <b>NEW FORCE POWERS: STASIS, GRASP, BLAST, DESTRUCTION, FEAR, AND LIGHTNING STRIKE;</b> Unlock new secrets of the Force and use new abilities to defend yourself or lay waste to your enemies.
+<br>- <b>NEW SYSTEM: DUAL-WIELDING;</b> Now you can dual-wield most pistols in the game!
+<br>- <b>NEW SYSTEM: TRUE VIEW;</b> Introduced in Jedi Knight: Enhanced, True View now comes to Galactic Legacy!
 </p>
+
 
 <h3><b><u>MISSION IMPROVEMENTS</u></b></h3>
 
-<h3><b><i><u>JEDI OUTCAST: ARTUS TOPSIDE</u></i></b></h3>
-<p>- Corrected a small glitch where Kyle Katarn would spawn with an inaccessible lightsaber in his inventory.</p>
+<h3><b><i><u>DUEL OF THE FATES - DARTH MAUL</u></i></b></h3>
+<p>- Corrected issues in Level 7 and Level 8 where you may spawn with two lightsabers instead of one as intended.
+<br>- Remade the end cutscene in Level 8.
+<br>- Improved the ending cutscene.</p>
 
 <h3><b><i><u>DUEL OF THE FATES - QUI-GON JINN</u></i></b></h3>
-<p>- Improved a line of Anakin's dialogue that was popping at the end.
-<br>- Changed Captain Rex's appearance to his phase 2 armor.
-<br>- Changed Ahsoka's appearance to her Siege of Mandalore appearance.
-<br>- Corrected multiple issues where Qui-Gon would revert back to a younger appearance and then his older appearance.</p>
+<p>- Replaced the end credits music with the Rebuilt Jedi Enclave theme from KOTOR II.</p>
 
-<h3><b><i><u>DUEL OF THE FATES - DARTH MAUL</u></i></b></h3>
-<p>- Improved some Wat Tambor dialogue to include some additional sound effects from Attack of the Clones.
-<br>- Reduced Count Dooku's health in the final stage from 150 to 100
-<br>- Populated the hangar bay during the bleeding cutscene with Naboo Guard corpses.
-<br>- Improved the ending cutscene after Dooku is defeated.
-<br>- Changed the end credits music.</p>
+<h3><b><i><u>JEDI OUTCAST: MISSION TO ALZOC III</u></i></b></h3>
+<p>- Made available Force Stasis and Force Destruction at levels 2 and 1 respectively.</p>
 
-<h3><b><u><i>NPC SPAWNER</u></i></b></h3>
-<p>- Corrected an issue where Tavion Axmis (Possessed) would attempt to spawn with the incorrect code.
-<br>- Reborn and Saboteurs will now be customizable in the menu and will also spawn correctly.</p>
+<h3><b><i><u>JEDI OUTCAST: ARTUS TOPSIDE</u></i></b></h3>
+<p>- Corrected an issue where Kyle believed he had his lightsaber before he was supposed to have it.
+</p>
 
-<h3><b><u>MODEL IMPROVEMENTS</u></b></h3>
-<p>- Fixed a texture issue on quigon_old
-<br>- Adjusted Anakin Skywalker's hair so it's not floating in certain places.
-<br>- Ben Solo's lightsaber blade will now appear as intended.</p>
+<h3><b><i><u>JEDI OUTCAST: YAVIN TRIAL</u></i></b></h3>
+<p>- Some devious pranksters weighed down the floating bridge during one of the trials, making it impossible to complete. Concerns were raised with Luke Skywalker and the weights have been removed.
+</p>
+
+<h3><b><i><u>JEDI OUTCAST: NAR SHADDAA HIDEOUT</u></i></b></h3>
+<p>- Force Stasis will unlock at level 1.
+</p>
+
+
+<h3><b><i><u>JEDI OUTCAST: BESPIN PLATFORM</u></i></b></h3>
+<p>- Force Destruction will unlock at level 1.
+</p>
+
+
+<h3><b><i><u>JEDI OUTCAST: CAIRN BAY</u></i></b></h3>
+<p>- Level 2 Force Stasis will unlock.
+</p>
+
+
+<h3><b><i><u>JEDI OUTCAST: CAIRN ASSEMBLY</u></i></b></h3>
+<p>- Level 2 Force Destruction will unlock
+</p>
+
+
+<h3><b><i><u>JEDI OUTCAST: CAIRN DOCK 1</u></i></b></h3>
+<p>- Level 3 Force Stasis will unlock.
+</p>
+
+
+<h3><b><i><u>JEDI OUTCAST: DOOMGIVER COMMS</u></i></b></h3>
+<p>- Level 3 Force Destruction will unlock.
+</p>
+
+<h3><b><u>FORCE POWER ADDITIONS</u></b></h3>
+
+<h3><b><u><i>FORCE STASIS</u></i></b></h3>
+<p>- Rank 1: Freeze the targeted enemy in place for 5 seconds. Common force sensitives have a 10% chance of being affected, powerful force sensitives have a 0.5% chance of being affected.
+<br>- Rank 2: Freeze the targeted enemy in place for 10 seconds. Common force sensitives have a 50% chance of being affected, powerful force sensitives have a 5% chance of being affected.
+<br>- Rank 3: Freeze the targeted enemy in place for 15 seconds. Common force sensitives will be affected, powerful force sensitives have a 10% chance of being affected.
+<br>- Force Power Cost: 20
+</p>
+
+<h3><b><u><i>FORCE GRASP</u></i></b></h3>
+<p>- Rank 1: The target is staggered for 5 seconds
+<br>- Rank 2: The target is lifted straight up, rendering them defenseless.
+<br>- Rank 3: The target can be picked up and freely moved around.
+<br>- Force Power Cost: 1, then 3 per second
+</p>
+
+<h3><b><u><i>FORCE BLAST</u></i></b></h3>
+<p>- Rank 1: Create an explosion off a solid surface or enemy, causing 20hp of damage.
+<br>- Rank 2: Create an explosion off a solid surface or enemy, causing 40hp of damage.
+<br>- Rank 3: Create an explosion off a solid surface or enemy, causing 60hp of damage.
+<br>- Force Power Cost: 30
+</p>
+
+<h3><b><u><i>FORCE DESTRUCTION</u></i></b></h3>
+<p>- Rank 1: Jedi unleashes a violent blast of dark energy, causing damage equal to the amount of Force points lost.
+<br>- Rank 2: Jedi unleashes a violent blast of dark energy, causing damage double the amount of Force points lost.
+<br>- Rank 3: Jedi unleashes a violent blast of dark energy, causing damage triple the amount of Force points lost.
+<br>- Force Power Cost: All of player's current force reserves
+<br>- Damage caused by NPCs using this power will scale depending on game difficulty.
+<br>- Enemies killed by this power will be vaporized (purely cosmetic, does not affect damage).
+</p>
+
+<h3><b><u><i>FORCE FEAR</u></i></b></h3>
+<p>- Rank 1: 50% chance to affect an enemy, permanently forcing them to lash out against their allies and enemies alike.
+<br>- Rank 2: Common enemies are permanently forced to lash out against their allies and enemies alike. Common force sensitive enemies have a 5% chance of being affected while powerful force sensitives have a 1% chance.
+<br>- Rank 3: Common enemies are permanently forced to lash out against their allies and enemies alike. Common force sensitive enemies have a 50% chance of being affected while powerful force sensitives have a 5% chance.
+<br>- Force Power Cost: 20
+</p>
+
+<h3><b><u><i>FORCE LIGHTNING STRIKE</u></i></b></h3>
+<p>- Rank 1: Jedi unleashes a blast of Force Lightning across a vast distance, causing very little damage.
+<br>- Rank 2: Jedi unleashes a blast of Force Lightning across a vast distance, causing minor damage.
+<br>- Rank 3: Jedi unleashes a blast of Force Lightning across a vast distance, causing moderate damage.
+<br>- Force Power Cost: 20
+<br>- Damage caused by NPCs using this power will scale depending on game difficulty.
+</p>
+
+<h3><b><u>NPC/MODEL CHANGES</u></b></h3>
+
+<h3><b><u><i>OLD REPUBLIC</u></i></b></h3>
+<p>- Assigned Force Stasis level 2 and Force Grip level 3 to Alek Squinquargesimus.
+<br>- Assigned Force Stasis level 2 and Force Lightning Strike level 1 to Atris.
+<br>- Assigned Force Stasis level 2 to Atton Rand
+<br>- Assigned Force Stasis level 2 to Bao-Dur
+<br>- Increased Bastila Shan's Force Jump, Force Push, and Force Pull from level 2 to level 3. Increased Force Protect from level 1 to level 2. Increase Saber Defense from level 2 to level 3. Granted level 3 force stasis, level 3 force grip, and level 2 force blast. Her dark side variant has been granted level 2 Lightning Strike and level 2 force fear.
+<br>- Bastila Shan (Dark) has been renamed to Bastila Shan (Fallen)
+<br>- Corrected an issue with Brianna's robed skin where it wasn't showing the lightsaber blades as intended.
+<br>- Assigned Force Stasis and Force Grip level 3 to Dorak
+<br>- Assigned Force Stasis level 1 to Dustil Onasi.
+<br>- Assigned Force Stasis and Force Grip level 3 to Jolee Bindo.
+<br>- Assigned Force Stasis and Force Grip level 3 and Force Fear level 2 to Juhani.
+<br>- Assigned Force Blast and Force Stasis level 2 and Force Grip level 3 to Kira Carsen.
+<br>- Assigned Force Fear level 3 to Kreia.
+<br>- Assigned Force Grasp, Blast, and Stasis level 3 to Meetra Surik.
+<br>- Assigned Force Stasis, Force Blast, and Force Grip level 3 to Nomi Sunrider.
+<br>- Assigned Force Stasis, Force Blast, and Force Grip level to Jedi Knight Revan. Assigned the same plus Force Destruction and Lightning Strike level 3 to Jedi Master Revan.
+<br>- Assigned Force Stasis, Force Blast, and Force Grip level 3 to Satele Shan.
+<br>- Assigned Force Stasis, Force Blast, and Force Grip level 3 to Vandar Tokare.
+<br>- Assigned Force Stasis and Force Grip level 3 to Vrook Lamar.
+<br>- Renamed Vrook Lamar (KOTOR) to Vrook Lamar (Dantooine).
+<br>- Renamed Vrook Lamar (KOTOR II) to Vrook Lamar (Jedi Master)
+<br>- Assigned Force Stasis and Force Grip level 3 to Zhar Lestin.</p>
+
+<h3><b><u><i>SITH EMPIRE</u></i></b></h3>
+<p>- Assigned Lightning Strike level 3 to Arcann
+<br>- Assigned Force Fear level 2 to Darth Bandon
+<br>- Assigned Force Destruction, Fear, Lightning Strike, Blast, and Stasis level 3 to Darth Bane
+<br>- Assigned Lightning Strike, Force Stasis, and Blast level 3 to Darth Caedus.
+<br>- Assigned Force Destruction and Lightning Strike level 3 to Darth Desolous.
+<br>- Assigned Force Fear, Lightning Strike, Stasis, and Grasp level 3 to Darth Malak.
+<br>- Assigned Force Fear, Blast, and Lightning Strike level 3 to Darth Malgus.
+<br>- Assigned Lightning Strike and Blast level 3 to Darth Marr.
+<br>- Assigned Force Fear and Force Blast level 3 to Darth Phobos.
+<br>- Assigned Force Stasis, Fear, and Lightning Strike level 3 to Darth Revan. Assigned the same and Force Destruction level 3 to Revan Reborn.
+<br>- Assigned Force Fear and Lightning Strike level 3 to Darth Traya.
+<br>- Assigned Force Fear, Stasis, Blast, Lightning Strike, and Destruction level 3 to Darth Zannah.
+<br>- Assigned Force Destruction and Lightning Strike level 3 to Exar Kun.
+<br>- Assigned Lightning Strike and Force Stasis level 3 to Lana Beniko.
+<br>- Assigned Lightning Strike level 3 to Lord Kallig.
+<br>- Assigned Force Fear level 1 to the Sith Assassin.
+<br>- Assigned Force Fear level 1 and Lightning Strike level 2 to the Sith Inquisitor.
+<br>- Assigned Force Fear level 2 to the Sith Master
+<br>- Assigned Force Fear level 3 and Force Stasis level 2 to Uthar Wynn.
+<br>- Assigned Force Stasis, Blast, Grasp, Destruction, Fear, and Lightning Strike level 3 to Valkorion.
+<br>- Assigned Force Destruction, Blast, and Lightning Strike level 3 to Vaylin.
+<br>- Assigned Force Stasis, Blast, Grasp, Destruction, Fear, and Lightning Strike level 3 to Vitiate.
+<br>- Assigned Force Stasis level 2 to Yuthura Ban.
+<br>- Darth Bane's lightsaber color has been changed from Red to Crimson.
+<br>- Darth Zannah's lightsaber color has been changed from Red to the Bane's Heart lightsaber color (red-purple as depicted in Star Wars: Galaxies).
+<br>- Fixed a number of customization bugs with Darth Talon.
+
+<h3><b><u><i>GALACTIC REPUBLIC</u></i></b></h3>
+<p>- Carl has promised to stop eating the hands of the Aqualish Jedi.
+<br>- Plo Koon (TCW) now has his correct lightsaber.
+<br>- All named Jedi have been assign Level 3 Force Grasp.
+<br>- Assigned Force Blast level 3 to Anakin Skywalker's Episode III and Clone Wars variants.
+<br>- Assigned Force Blast level 3 to Yoda
+<br>- Added a Phase II Captain Rex NPC which was originally missing.
+<br>- Corrected an issue with Koffi Arana's model where he wasn't showing his lightsaber blade as intended.
+</p>
+
+<h3><b><u><i>SEPARATIST ALLIANCE</u></i></b></h3>
+<p>- Assigned Force Lightning Strike level 1 to Count Dooku.
+<br>- Assigned Force Blast level 2 to Savage Opress.
+<br>- Corrected issues with a number of Battle Droid variants that were incorrectly using Thermal Detonators.
+<br>- Renamed Darth Maul (Solo) to Darth Maul (Crime Lord)
+<br>- Renamed Darth Maul (Rebels) to Darth Maul (Old Master)
+<br>- Renamed Nute Gunray (Episode III) to Nute Gunray (Council)
+<br>- Renamed Savage Opress (Axe) to Savage Opress (Apprentice)
+
+<h3><b><u><i>REBELLION</u></i></b></h3>
+<p>- Assigned Force Blast level 2 and Force Grasp level 3 to Ben Skywalker.
+<br>- Assigned Lightning Strike level 2 and Force Blast, Stasis, and Grasp level 3 to Jaina Solo.
+<br>- Assigned Lightning Strike level 2 and Force Blast, Stasis, and Grasp level 3 to Jacen Solo.
+<br>- Renamed Chewbacca (Bespin) to Chewbacca (Bespin Escape)
+<br>- Renamed Leia Organa (Episode V) to Leia Organa (Rebel Officer)
+<br>- Renamed Rahm Kota (TFU II) to Rahm Kota (Rebel General)
+<br>- Assigned Force Grasp and Blast level 3 to Rahm Kota and all variants
+<br>- Assigned Force Grasp level 3 to Ben Kenobi.
+<br>- Assigned Force Grasp level 3 to Ahsoka Tano and all variants
+<br>- Assigned Force Grasp level 3 to Anakin Solo
+<br>- Assigned Force Grasp level 3 to Ben Skywalker.
+<br>- Assigned Force Grasp level 3 to Corran Horn and all variants.
+<br>- Assigned Force Grasp level 3 to Ezra Bridger and all variants.
+<br>- Assigned Force Grasp, Lightning Strike, Destruction, and Blast level 3 to Galen Marek and all variants.
+<br>- Assigned Force Grasp, Lightning Strike, Destruction, and Blast level 3 to Starkiller and all variants.
+<br>- Assigned Lightning Strike level 2 and Force Grasp, Stasis, and Blast level 3 to Jacen Solo.
+<br>- Assigned Lightning Strike level 2 and Force Grasp, Stasis, and Blast level 3 to Jaina Solo.
+<br>- Assigned Force Grasp level 3 to Kanan Jarrus and all variants.
+<br>- Changed the NPC class of Kanan Jarrus (Mask) from CLASS_LUKE to CLASS_JEDI. Increased his default health from 400 to 500.
+<br>- Assigned Force Stasis and Force Destruction level 3 to Kyle Katarn's Mysteries of the Sith and Jedi Outcast/Academy variants.
+<br>- Renamed Kyle Katarn (Dark Forces) to Kyle Katarn (Mercenary)
+<br>- Renamed Kyle Katarn (DFII) to Kyle Katarn (Journeyman), included Alternate in the title where applicable
+<br>- Renamed Kyle Katarn (DFII, LS) to Kyle Katarn (Jedi Lord), included Alternate in the title where applicable.
+<br>- Renamed Kyle Katarn (MOTS) to Kyle Katarn (Jedi Mentor)
+<br>- Assigned Force Grasp level 2 to Dagobah + Bespin Luke Skywalker
+<br>- Assigned Force Grasp level 3 to Jedi Knight Luke Skywalker.
+<br>- Assigned Force Stasis, Blast, and Grasp level 3 to Jedi Outcast/Academy Luke Skywalker.
+<br>- Assigned Force Stasis, Blast, Grasp, and Lightning Strike level 3 to Mara Jade and all variants.
+<br>- Assigned Force Grasp level 3 to Qu Rahn
+<br>- Assigned Force Grasp level 3 to X2
+
+<h3><b><u><i>EMPIRE</u></i></b></h3>
+<p>- Updated the Second Sister model to a better quality.
+<br>- Updated the Royal Guard model to a better quality, included a robed Shadow Guard variant.
+<br>- Improved the Dark Trooper Phase III scaling to be more accurate. Updated the model to a better quality.
+<br>- Updated the Phase 2 Dark Trooper with improved lighting and optimization, better rigging, and jetpack flame tags
+<br>- Upgraded the shine on Agent Kallus's armor.
+<br>- Optimized all Scout Trooper model variants with better LODs and less draw calls (parts)
+<br>- Optimized Shock Trooper and Shadow Stormtrooper with LODs
+<br>- Ported Jerec's skeleton to the JKA skeleton
+<br>- The Saboteur can now be spawned without issues.
+<br>- Assigned Force Destruction and Lightning Strike level 3 to Boc Aseca.
+<br>- Assigned Force Blast, Grasp, Destruction, and Lightning Strike to Galen Marek and all variants.
+<br>- Assigned Force Destruction and Lightning Strike level 3 to Jerec.
+<br>- Assigned Lightning Strike level 3 to Joruus C'Baoth.
+<br>- Assigned Force Stasis level 2 and Force grasp level 3 to the Imperial Knight.
+<br>- Assigned Force Fear level 3 to Lumiya.
+<br>- Assigned Force Stasis, Blast, Grasp, Destruction, Fear, and Lightning Strike level 3 to Emperor Palpatine.
+<br>- Assigned Lightning Strike and Force Fear level 3 to Sariss.
+<br>- Assigned Force Blast level 2 to the Second Sister.
+<br>- Assigned Force Blast and Lightning Strike level 2 to the Shadow Guard.
+<br>- Assigned Force Blast and Force Grasp level 3 to Darth Vader.</p>
+
+<h3><b><u><i>RESISTANCE</u></i></b></h3>
+
+<h3><b><u><i>FIRST ORDER</u></i></b></h3>
+<p>- Assigned Force Stasis and Force Grasp level 3 to Kylo Ren and his other variations.
+<br>- Assigned Force Stasis, Blast, Grasp, Destruction, Fear, and Lightning Strike level 3 to Sith Eternal Emperor Palpatine.
+<br>- Assigned Lightning Strike and Force Stasis level 3 to Supreme Leader Snoke.
+
+<h3><b><u><i>CRIMINALS</u></i></b></h3>
+<p>- Corrected an issue where the Trandoshan's teeth would be a lot whiter than expected.
+<br>- Assigned Force Fear level 2 to Komari Vosa.</p>
+
+<h3><b><u><i>BOUNTY HUNTERS</u></i></b></h3>
+<p>- Assigned Force Stasis level 1 to Mira (Jedi).
+<br>- Corrected the misspelling of Boussh, it is now Boushh as intended.
+<br>- Corrected an issue with Mira where her left hand was missing and right hand was mis-textured on her non-default appearances.</p>
+
+<h3><b><u><i>CIVILIANS</u></i></b></h3>
+<p>- Assigned Force Fear level 2 to Mighella.
+<br>- Assigned Force Blast level 2 and Force Grasp level 3 to Taron Malicos.
+<br>- Assigned Lightning Strike level 1 to the Nightsister Spirit.
+<br>- Assigned Lightning Strike, Stasis, and Blast level 2 to the Revanite Convert.
+<br>- Assigned Lightning Strike, Stasis, Fear, and Grasp level 3 to Mother Talzin.</p>
+
+<h3><b><u><i>MANDALORIANS</u></i></b></h3>
+
+<h3><b><u><i>INFINITIES</u></i></b></h3>
+<p>- Assigned Lightning Strike level 2 to Sith Apprentice Ahsoka Tano.
+<br>- Assigned Lightning Strike, Force Blast, and Force Destruction to Dark Lord Anakin Skywalker.
+<br>- Removed Zeldrin
+<br>- Assigned Force Stasis and Force Grasp level 3 to Linken Anderson.
+
+<h3><b><u>MENU/UI CHANGES</u></b></h3>
+
+<h3><b><u><i>JEDI ACADEMY FORCE SELECT</u></i></b></h3>
+<p>- Implemented the new force powers as acceptable options after completing a mission in Jedi Academy.
+
+<h3><b><u><i>CHARACTER SELECTION</u></i></b></h3>
+<p>- Players who select Jedi Knight Revan from the Old Republic faction will no longer be turned to the dark side team.
+<br>- Jedi Knight Revan's lightsaber and color have been changed to the Revan hilt and purple respectively.
+<br>- Players who select Bastila Shan can now throw her lightsaber as intended.
+<br>- Added Qu Rahn to character selection as he was missing.
+<br>- Corrected a typo in Koffi Arana's biography where the first sentence incorrectly spelled his name as "Koffa".
+<br>- Updated Cad Bane's biography to include events depicted in The Bad Batch TV show.
+<br>- Updated Dark Lord Anakin Skywalker's biography to remove an unintended gender pronoun.
+<br>- Updated Crosshair's biography to reflect events depicted in The Bad Batch TV show.
+<br>- Updated Hunter's biography to reflect events depicted in The Bad Batch TV show.
+<br>- Updated Tech's biography to reflect events depicted in The Bad Batch TV show.
+<br>- Updated Wrecker's biography to reflect events depicted in The Bad Batch TV show.
+</p>
+
+<h3><b><u>WEAPON IMPROVEMENTS</u></b></h3>
+<p>- The DL-44 Pistol can now be dual-wielded.
+<br>- Mara Jade's First Lightsaber's default color has been changed from purple to Magenta.
+
+<h3><b><u>MAP IMPROVEMENTS</u></b></h3>
+
+<h3><b><u><i>CORUSCANT HEIGHTS</u></i></b></h3>
+<p>- Changed the map's music to reuse Naboo Palace's music, as it mostly matches the original map's track and doesn't replace Artus Topside's action track</p>
+
+<h3><b><u><i>NABOO PALACE</u></i></b></h3>
+<p>- Fixed the included music to play the entire intended track rather than 31 seconds.</p>
+
+<h3><b><u><i>MASSASSI TEMPLE</u></i></b></h3>
+<p>- Refactored some files causing script overwriting with Jedi Outcast mission Yavin Trial, which was preventing progress.</p>
+
+<h3><b><u><i>MISCELLANEOUS FIXES</u></i></b></h3>
+<p>- Battle Droids outside of the default droid will no longer sound feminine.
+<br>- The Republic's re-programmed battle droids will no longer appear in the Rebellion section of the NPC menu.
+<br>- The Nova Troopers, Storm Commandos, and General Weir no longer sound feminine.
+<br>- Added and updated some names in the end credits, including some YouTubers who have featured the mod in their own Let's Plays, Discord Server Boosters, and an unfortunate addition to "In Memory Of".
+
 </li>
 
 <li class="KotFSM">
