@@ -63,6 +63,17 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
+<h3><u>Hotfix - 12/01/2021</u></h3>
+<p>- Corrected an issue where Jorak Uln would appear as Jorak_Uln in the NPC menu
+<br>- Fixed a glitch where Cade Skywalker's Jacket icon was not appearing as intended.
+<br>- Removed Mira from the Bounty Hunter NPC menu
+<br>- Removed a duplicate Jedi Trainer NPC in the NPC menu
+<br>- Corrected an issue where the Younglings were not spawning in Operation: Knightfall as expected.
+<br>- Corrected an issue where Darth Vader was not spawning with his lightsaber when spawned in the NPC menu.
+<br>- Removed a number of invalid Blue and Red appearances from multiple models.
+<br>- Corrected a glitch causing selected characters to be given most or all saber styles when they weren't supposed to.
+<br>- Fixed a major bug where some characters with a flamethrower would crash the game if their model did not have the tag.</p>
+
 <h3><u>Patch Notes - 11/29/2021</u></h3>
 
 <h3><b><u>HIGHLIGHTS</u></b></h3>
