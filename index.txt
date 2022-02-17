@@ -63,6 +63,86 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
+<h3><u>Hotfix - 02/17/2022</u></h3>
+
+<h3><b><u>MISSION IMPROVEMENTS</u></b></h3>
+<h3><b><i><u>DUEL OF THE FATES (DARTH MAUL)</u></i></b></h3>
+<p>- The Coruscant Guard enemies will randomly spawn with either a DC-15A or DC-15S.</p>
+
+
+<h3><b><u>FORCE POWER UPDATES</u></b></h3>
+<h3><b><i><u>FORCE GRIP</u></i></b></h3>
+<p>- While playing Operation: Knightfall (Lord Vader's POV), Force Grip will deal 3x damage and cannot be resisted or broken out of by Jedi enemies (does not include bosses). This buff is only applied in Operation: Knightfall and cannot be accessed in any other gamemode.</p>
+
+<h3><b><u>FIXED MODELS</u></b></h3>
+<p>- Corrected a shader issue with Darth Talon which was causing her lekku to not apply the player's preferred RGB value for her.</p>
+<p>The following models have been fixed and should no longer have invisible saber blades (or useless melee weapons).</p>
+<p>- Nightsister Wraith
+<br>- Bowdaar
+<br>- Old Daka
+<br>- Clegg Holdfast
+<br>- Garazeb Orrelios
+<br>- K-2SO/Imperial Brawler Droid
+<br>- Cassian Andor (Weather gear)
+<br>- Mister Bones
+<br>- C-21 Highsinger
+<br>- IG-11
+<br>- Todo 360
+<br>- Boba Fett (Young)
+<br>- IG-86
+<br>- Shahan Alama
+<br>- Neimoidian Guard
+<br>- Buzz Droid (Because why not)
+<br>- Aquatic Battle Droid
+<br>- Kabe
+<br>- Northern Mustafarian
+<br>- Ilco Munica
+<br>- Givin
+<br>- Talz
+<br>- G0-T0 (What an amusing Jedi specimen he is)
+<br>- ISB Agent (Female)
+<br>- Lumiya
+<br>- Darth Sidious (Sith Apprentice)
+<br>- Moff Gideon's Dark Trooper
+<br>- Imperial Senate Sentinel
+<br>- Grand Inquisitor (Jedi Temple Guard)
+<br>- Pre Viszla
+<br>- Qu Rahn (Red Skin)
+<br>- Corran Horn
+<br>- Han Solo (Corellian Street Rat)
+<br>- Coruscant Police Droid
+<br>- FX-7 Medical Droid (Because why not)
+<br>- Tenel Ka Djo (Missing Arm)
+<br>- Ben Skywalker
+<br>- Rebel Honor Guard
+<br>- Jedi Brute
+<br>- Gate Master Jurokk
+<br>- Poe Dameron (Pilot)
+<br>- Iago Battle Droid
+<br>- Kuill
+<br>- Aayla Secura (Mechanic)
+<br>- Ithorian Senator
+<br>- Ask Aak
+<br>- Saesee Tiin (TCW)
+<br>- Mace Windu (TCW)
+<br>- Kit Fisto (TCW)
+<br>- Eeth Koth (TCW)
+<br>- Commander Jet (Cyborg)
+<br>- Nosaurian Jedi (TCW)
+<br>- Cin Drallig (TCW)
+<br>- Agen Kolar (TCW)
+<br>- Obi-Wan Kenobi (Mid-War)
+<br>- Republic Soldier (Female)
+<br>- Lord Scourge
+<br>- Generic Male Jedi Knights
+<br>- Generic Male Sith Lords
+<br>- Ulic Qel-Droma
+<br>- Dark Jedi (Female)
+
+<h3><b><u>MISCELLANEOUS FIXES</u></b></h3>
+<p>- Added the updated Phase II Clone Trooper and Coruscant Guard to the Republic character selection.
+<br>- Removed the Galactic Adventures button in the Game Selection menu.</p>
+
 <h3><u>Hotfix - 02/08/2022</u></h3>
 <p>- Added a missing Nico Okarr to the Civilians character selection.
 <br>- Re-added Rey's Rey Palpatine variant to her character selection.
