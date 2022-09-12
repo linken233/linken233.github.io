@@ -63,6 +63,16 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
+<h3><u>Additional Fixes Patch Notes - 09/12/2022</u></h3>
+<p>- Corrected the overall functionality of the character selection menu for multiple characters
+<br>- Added the Prisoner to the Rebel NPC menu
+<br>- Replaced some missing textures from the Padme Home and Palpatine Office maps
+<br>- Gave the Ragnos Cultist a few minor dark side powers in conjunction with their specialized appearances in the main game.
+<br>- The Second and Third Sister, Lumiya, and Tera Sinube will now receive their correct lightsabers.
+<br>- Fixed multiple issues where some characters weren't receiving the correct force powers or lightsaber styles
+<br>- Fixed an issue where characters with more than 5 weapons weren't receiving their fifth weapon as intended (such as the Stormtrooper)
+<br>- Corrected the alternate Rodian's skin file so he appears as intended.</p>
+
 <h3><u>Hotfix Patch Notes - 09/07/2022</u></h3>
 <p>- Corrected Ysanne Isard's NPC menu entry so she appears as intended.
 <br>- Added some missing description text for the Third Sister's Inquisitor Mechanic.
