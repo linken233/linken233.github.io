@@ -63,6 +63,11 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
+<h3><u>Hotfix Notes - 12/28/2022</u></h3>
+<p>- Kyle Katarn's appearances will now hold his blue lightsaber as intended.
+<br>- Fixed a critical bug where NPCs spawned would not have their primary saber changed as intended and the player would receive what was intended for the NPC at the start of a new game.
+<br>- Replaced the background image for the Control and Settings menus to a new image inspired by Jedi Knight: Dark Forces II.</p>
+
 <h3><u>Patch Notes - 12/28/2022</u></h3>
 
 <h3><b><u>HIGHLIGHTS</u></b></h3>
