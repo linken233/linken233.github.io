@@ -64,441 +64,589 @@ max-width: 800px;
 <li class="PatchNotes">
 
 
-<h3><u>Patch Notes - 08/23/2023</u></h3>
+<h3><u>Patch Notes - 02/17/25</u></h3>
 
 <h3><b><u>HIGHLIGHTS</u></b></h3>
-<p>-<b>NEW MISSION: OPERATION: KNIGHTFALL REMAKE;</b> Re-experience the night of Order 66 as the newly christened Darth Vader leads the 501st Legion into the Jedi Temple to destroy the Jedi Order. Re-made from our original mission back in 2019 featuring all new moments inspired by the Revenge of the Sith video game, The Clone Wars, and more.
-<br> Featuring the voice talents of Plumb as Lord Vader, JollyGreenJack as a secret role, RedSun as the 501st Clone Troopers, Darth Voiid as Gate Master Jurokk, and Linken as a Jedi Temple Guard.
-<br><br>- Controller support comes to Galactic Legacy! (In-game only)</p>
+<p><b>NEW SYSTEM: ATTRIBUTES;</b> Highlighting special factors of a character's species or personality, the new Attribute system will bring more realism to each character in Galactic Legacy.
+<br><b>NEW SYSTEM: INQUISITOR LIGHTSABERS;</b> Inquisitor Lightsabers make their first functional debut to Jedi Academy, bringing their unique spinning functionality to all Inquisitor characters.
+<br><b>NEW NPC TYPE: DROIDEKA;</b> Droidekas function as they always should have in Galactic Legacy now.
+
 
 <h3><b><u>MISSION IMPROVEMENTS</u></b></h3>
+<h3><b><i><u>JEDI OUTCAST CAMPAIGN</u></i></b></h3>
+<p>- Loading a save game should no longer cause Kyle to lose all weapons and Force Powers.
+<br>- Kyle no longer has Force Destruction on ns_starpad.
+<br>- Fixed an issue where Kyle could start a level with all saber styles earlier than intended.
+<br>- The TIE Fighters in Doomgiver Detention can now be destroyed by the turret.
+<br>- The Turrets used in Nar Shaddaa Starpad and Doomgiver Detention will now play effects as intended.</p>
 
-<h3><b><i><u>DUEL OF THE FATES (ALL)</u></i></b></h3>
-<p>- Changed Count Dooku's appearance to his new variation as seen in Tales of the Jedi.</p>
+<h3><b><i><u>KOTOR II: THE TRAYUS CORE</u></i></b></h3>
+<p>- Reduced Darth Traya's health in Stage 1 from 2000 to 1000.
+<br>- Changed the Lightsaber model for the floating sabers from Juhani to Darth_Revan (for KOTOR accuracy)
+<br>- Removed the Lightsaber's force immunity.</p>
 
-<h3><b><i><u>DUEL OF THE FATES (QUI-GON JINN)</u></i></b></h3>
-<p>- Removed Yaddle from the final cutscene.</p>
+<h3><b><i><u>OPERATION: KNIGHTFALL (LORD VADER)</u></i></b></h3>
+<p>- Deactivated the invisible wall in the Library after the introduction is played.
+<br>- Delayed Anakin's jumping slash in the Room of a Thousand Fountains duel, hopefully making the action more consistent.
+<br>- Pre-activated the beacon making finding it significantly easier.
 
-<h3><b><i><u>DUEL OF THE FATES (DARTH MAUL)</u></i></b></h3>
-<p>- Reworked a number of spawn points of the dead Naboo guards so they no longer create a loud splat sound when loading up the level.
-<br>- Replaced the music playing during the Mustafar duel with a new original composition created by Peter Danielsen.
-<br>- Added a missing subtitle for Count Dooku for his dialogue that plays shortly after the duel begins.</p>
+<h3><b><u>CODE CHANGES</u></b></h3>
+<p>- Modified the "NPC Anim" command to take a timer argument. Use "-1" for an infinite amount of time.
+<br>- Modified the "NPC Enemy", "NPC remove", "NPC anim", "NPC team", "NPC weapon", and "NPC saber" commands to accept "all" as a valid targetname to affect all NPCs.
+<br>- New Command: "NPC model", you are now able to change an NPC's playermodel. Syntax: "npc model [npc targetname] [model] [skin (OPTIONAL)]"
+<br>- New Command: "NPC skin", you are now able to change an NPC's skin. Syntax: "npc skin [npc targetname] [skin name]"
+<br>- Removed the default values for the NPC Spawnscript, Fleescript, and Deathscripts in the menu, which was causing some confusion among players when NPCs were behaving in a way not expected.
+<br>- A thrown saber will now reflect the model what the user had at time of throwing.
+<br>- NPCs assigned no weapon will now spawn without a weapon as intended.
 
-<h3><b><i><u>THE TRAGEDY OF DARTH PLAGUEIS</u></i></b></h3>
-<p>- Implemented new and improved dialogue audio.
-<br>- Improved head movements to be more accurate to the film.
+<h3><b><u>NEW ATTRIBUTES</u></b></h3>
+<p>- Held By Hatred: Upon defeat, will immediately heal to full health and sacrifice a large amount of their maximum health. If maximum health is below 100, the character is vulnerable to death. Inspired by Darth Sion in Knights of the Old Republic II.
+<br>- Hero: Can't be mind tricked, disarmed, takes reduced damage from all sources, and deals increased damage with blasters.
+<br>- Aquatic: Is able to breathe underwater and cannot drown.
+<br>- Inquisitor: Able to use the Inquisitor Lightsabers spinning function.
+<br>- Casual Walk: Uses Kyle Katarn's walking animation from Jedi Outcast while their saber is activated.
+<br>- No Twirl: Does not saber twirl.
+<br>- Commando: Cannot be mind tricked, disarmed, and alternates between alternate and primary fires, and upon being force choked, throws a grenade, freeing themselves.
+<br>- Brawler: Uses Kyle's melee attacks from the Dark Side ending of Jedi Academy.
+<br>- Droid: Takes increased damage from electrical attacks. Immune to Force Grip 1, and explodes when being choked. Can't be mind tricked, drowned, or suffocated.
+<br>- Sadistic: Heals whenever inflicting damage on an enemy.
+<br>- Berserker: Lightsaber/melee weapon attacks are faster when at certain health thresholds.</p>
 
-<h3><b><i><u>FATE OF THE REPUBLIC (MACE WINDU)</u></i></b></h3>
-<p>- The Coruscant Guard will now appear as intended.</p>
+<h3><b><u>NEW FACTION</u></b></h3>
+<p>- High Republic</p>
 
-<h3><b><i><u>OPERATION: KNIGHTFALL</u></i></b></h3>
-<p>- Disabled friendly fire so it is no longer possible to accidentally kill allied Clone Troopers.
-<br>- Clone Troopers deal 2x damage to Jedi (only applied in this mission)</p>
-
-
-<h3><b><u>FORCE POWER UPDATES</u></b></h3>
-<h3><b><i><u>FORCE GRIP</u></i></b></h3>
-<p>- <b>WHILE PLAYING OPERATION: KNIGHTFALL (REMAKE)</b> Force Grip deals 3x damage to all Jedi enemies and cannot be resisted or broken out of (except by bosses or Jedi with force absorb activated beforehand), this buff is only applied in Operation: Knightfall and cannot be accessed in any other game mode.</p>
-
-<h3><b><i><u>FORCE BLAST</u></i></b></h3>
-<p>Force Blast can no longer kill the player. However, the power is still lethal to non-player characters.</p>
-
-<h3><b><i><u>FORCE ABSORB</u></i></b></h3>
-<p>Lightning Strike will no longer bypass Force Absorb and will now offer protection to the player based on the following levels:
-<br><br>LEVEL 1: 10% Damage Reduction
-<br>LEVEL 2: 50% Damage Reduction
-<br>LEVEL 3: 100% Damage Reduction</p>
-
-<h3><b><u>NEW FACTIONS</u></b></h3>
-<p>- Ewoks
-<br>- Unaligned Force Users
-<br>- Zann Consortium
-
-<h3><b><u>CHARACTER IMPROVEMENTS</u></b></h3>
-<p><b>Made improvements to the generation tool which required a full recreation of all configuration files for all characters. This may result in characters using weapons they may or may not have used in previous builds.</b></p>
-<p>- Playing as either Darth Vader or Lord Starkiller will now play a breathing sound for the player. 
-<br>- Applied canonical animations to Starkiller and Ahsoka Tano created by Katanamaru.
-<br>- Increased Cin Drallig's existing force abilities from 2 to 3 where applicable. Changed his NPC class from CLASS_JEDI to CLASS_KYLE.
-<br>- Changed Sora Bulq's lightsaber color from green to blue and gave him a blue shoto lightsaber
-<br>- Gave Tarfful a DC-15s Carbine Rifle to account for his appearances in Jedi: Fallen Order and Galaxy of Heroes.
-<br>- Removed all dark side abilities from the Imperial Knights to keep accuracy with their philosophy.
-<br>- Made the black shadow guard the default skin for the Emperor's Shadow Guard.
-<br>- Removed unneeded blue and red skins from Admiral Screed
-<br>- Queen Talia will now be able to hit enemies when using a sword or other melee weapon.
-<br>- Bossk will now be able to hit enemies when using a sword or other melee weapon.
-
-<h3><b><u>NEW/UPDATED CHARACTERS</u></b></h3>
-
+<h3><b><u>NEW CHARACTERS</u></b></h3>
 <h3><b><i><u>OLD REPUBLIC</u></i></b></h3>
-<p>- C2-N2
-<br>- Fideltin Rusk
-<br>- Havoc Squad Trooper (Updated Model)
-<br>- Jonas Balkar
-<br>- Juhani (Updated Model)
-<br>- Kaevee
-<br>- Kira Carsen (Updated Model)
-<br>- Nadia Grell
-<br>- Protocol Droid
-<br>- R-8009 Utility Droid
-<br>- Republic Crewman
-<br>- Republic Pilot
-<br>- Republic Trooper (New Variant)
-<br>- Skohani Ren
-<br>- T7-series Astromech Droid
-<br>- Terena Adare
-<br>- Vandar Tokare (Updated Model)
-<br>- Zez-Kai Ell
+<p>- Atris (Darth Traya) (New Variant)
+<br>- Bao-Dur (New Variant)
+<br>- HK-47 (New Skin)
+<br>- Kavar
+<br>- Lonna Vash
+<br>- Nomen Karr
+<br>- Revan (General)
+<br>- Visas Marr (Maskless)
 
 <h3><b><i><u>DARTH REVAN'S SITH EMPIRE</u></i></b></h3>
-<p>- Iridonian Mercenary
-<br>- Mark VII Experimental Assassin Droid
+<p>- Darth Malak (New Skin)
+<br>- Darth Revan (New Skin)
+<br>- Kreia (Updated Model + New Customization Options)
 
-<h3><b><i><u>ANCIENT SITH</u></i></b></h3>
+<h3><b><i><u>RECONSTITUTED SITH EMPIRE</u></i></b></h3>
+<p>- 2V-R8
+<br>- Darth Acharon
+<br>- Darth Baras (Model Update)
+<br>- Darth Decimus
+<br>- Darth Hadra
+<br>- Darth Malgus (Renegade) (New Variant)
+<br>- Darth Mortis
+<br>- Darth Nyriss
+<br>- Darth Ravage
+<br>- Darth Vowrawn
+<br>- Jaesa Willsaam
+<br>- Sith Empire Trooper (Updated Model)
+<br>- Sith Eradicator (Updated Model)
+<br>- Sith War Droid (Updated Model + Animations)
+<br>- Vitiate (Illusion) (New Variant)
+
+<h3><b><i><u>ANCIENT SITH EMPIRE</u></i></b></h3>
 <p>- Ajunta Pall
-<br>- Darth Andeddu
-<br>- Freedon Nadd (Updated Model)
-<br>- Lord Dramath
-<br>- Naga Sadow (New Variant)
-<br>- Tenebrae
+<br>- Kissai
+<br>- Ludo Kressh (New Variant)
+<br>- Marka Ragnos (Updated Model)
+<br>- Marka Ragos (Spirit) (New Variant)
 
-<h3><b><i><u>RESURGENT SITH EMPIRE</u></i></b></h3>
-<p>- Darth Chratis
-<br>- Eleena Daru
-<br>- Imperial Trooper (Updated Model)
-<br>- Khem Val
-<br>- Malavai Quinn
-<br>- Sith Pureblood Warrior
-<br>- Sith War Droid
+<h3><b><i><u>RULE OF TWO</u></i></b></h3>
+<p>- Darth Bane (Updated Model)
+<br>- Darth Cognus
+<br>- Darth Tenebrous (Updated Model)
+
 
 <h3><b><i><u>GALACTIC REPUBLIC</u></i></b></h3>
-<p>- 187th Clone Trooper
-<br>- 212th Clone Sniper
-<br>- 327th Clone Trooper (Phase I)
-<br>- Agen Kolar (Updated Model)
-<br>- Ahsoka Tano (Padawan) (New Variant)
-<br>- Anakin Skywalker (Force Ghost, Original) (Updated Model)
-<br>- Anakin Skywalker (General) (Updated Model)
-<br>- Anakin Skywalker (Mid-War) (New Variant)
-<br>- ARC Trooper (New Variant)
-<br>- Bultar Swan (Updated Model)
-<br>- Captain Fordo (Updated Model)
-<br>- Clone Blaze Trooper
-<br>- Clone Gunner
-<br>- Clone Pilot
-<br>- Eeth Koth (Updated Model)
-<br>- Even Piell (Updated Model)
-<br>- Glynn-Beti
-<br>- Grohto
-<br>- Jurokk (New Variant)
-<br>- Kelleran Beq
-<br>- Lilit Twoseas
-<br>- Naboo Guardsman (New Variant)
-<br>- Obi-Wan Kenobi (General) (New Variant)
-<br>- Padme Amidala (Clone Wars) (New Variant)
-<br>- Padme Amidala (Pilot)
-<br>- Padme Amidala (Snow Gear)
-<br>- Sio Bibble
-<br>- Siri Tachi (New Variant)
-<br>- Temple Security Force
-<br>- Voolvif Monn
-<br>- Yoda (New Skins)
+<p>- Anakin Skywalker (Commander) (New Variant)
+<br>- Anakin Skywalker (Nelvaan) (New Variant)
+<br>- Kelleran Beq (Updated Model)
+<br>- Kit Fisto (Mon Calamari)
+<br>- Pong Krell
+<br>- Sister
+
+<h3><b><i><u>HIGH REPUBLIC</u></i></b></h3>
+<p>- Geode
+<br>- Jecki Lon
+<br>- Yord Fandar
 
 <h3><b><i><u>SEPARATIST ALLIANCE</u></i></b></h3>
-<p>- A-series Assassin Droid
-<br>- Cortosis Assassin Droid
-<br>- Count Dooku (Jedi Master) (New Variant)
-<br>- Cydon Prax
-<br>- E4 Baron Droid
-<br>- Gossam Commando
-<br>- Lushros Dofine
-<br>- N-K Necrosis (New Variant to General Grievous)
-<br>- Nimbus Commando
-<br>- Separatist Mercenary
-<br>- Sev'rance Tann
-
-
+<p>- Asajj Ventress (Yavin) (New Variant)
+<br>- BX-series Commando Droid (Updated Model)
+<br>- Droideka (New NPC Class)
+<br>- Geonosian Elite
+<br>- Qymaen Jai Sheelal (New Variant to General Grievous)
 
 <h3><b><i><u>REBELLION</u></i></b></h3>
-<p>- 2-1B
-<br>- Bespin Jump Trooper
-<br>- Blue Squadron Pilot
-<br>- Caleb Dume (New Variant to Kanan Jarrus)
-<br>- Captain Rex (Endor)
-<br>- Chewbacca (Injured) (New Skin)
-<br>- Dash Rendar
-<br>- Evaan Verlaine
-<br>- Han Solo (Hoth) (New Variant)
-<br>- Kota's Militia
-<br>- Lando Calrissian (Jabba's Palace) (Updated Model)
-<br>- Leebo
-<br>- Leia Organa (Bespin Dress) (New Variant)
-<br>- Leia Organa (Black Sun Captive) (New Variant)
-<br>- Leia Organa Solo (Dark Empire) (New Variant)
-<br>- Leia Organa (Jedi Training) (New Variant)
-<br>- Leia Organa (Mimban) (New Variant)
-<br>- Leia Organa (Ord Mantell) (New Variant)
-<br>- Luke Skywalker (Dagobah Training) (Updated Model)
-<br>- Luke Skywalker (Heir to the Empire) (Updated Model + New Variant)
-<br>- Luke Skywalker (Mimban)
-<br>- Luke Skywalker (Pilot) (Updated Model)
-<br>- Luke Skywalker (Rebellion) (New Variant)
+<br>- Garazeb Orrelios (Updated Model)
+<br>- Grizz Frix
+<br>- Han Solo (Updated Model)
+<br>- Jan Dodonna
+<br>- Jyn Erso (Imperial Disguise)
+<br>- Keyan Farlander
+<br>- Lak Sivrak
+<br>- Lando Calrissian (Smuggler)
+<br>- Leia Organa (Mimban)
+<br>- Luke Skywalker (Bespin, Farmboy) (Updated Models)
+<br>- Luke Skywalker (Grand Master) (New Variant)
+<br>- Luke Skywalker (Mimban) (New Variant)
 <br>- Luke Skywalker (Sith Apprentice) (Updated Model)
-<br>- R2-D2 (Sail Barge)
-<br>- Rebel Marksman
-<br>- Rebel Pilot (Devaronian) (New Variant)
-<br>- Rebel Pilot (Rodian) (New Variant)
-<br>- Rebel Soldier (Ithorian) (New Variant)
-<br>- Rebel Soldier (Quarren) (New Variant)
-<br>- Rebel Smuggler
-<br>- Rebel Vanguard
-<br>- Shriv Suurga
-<br>- Ten Numb
-<br>- Wedge Antilles
-<br>- Wookiee Warrior
+<br>- Raymus Antilles
+<br>- Sabine Wren (Updated Model)
+<br>- Saw Gerrera
+<br>- Starkiller (Experimental Jedi Robes)
+<br>- Starkiller (Dreaming Robes)
+<br>- Toryn Farr
+<br>- Twi'lek Rebel
 
 <h3><b><i><u>NEW REPUBLIC</u></i></b></h3>
-<p>- Allana Djo Solo
-<br>- Jacen Solo (Updated Model)
-<br>- Jan Ors (New Variant)
-<br>- Kirana Ti
-<br>- Lant Davan
-<br>- Mara Jade (Emperor's Hand) (Updated Model)
-<br>- Mara Jade (Poncho) (New Variant)
-<br>- Mara Jade (Vong Armor) (New Variant)
-<br>- New Republic Guard
-<br>- New Republic Security Droid
-<br>- WeeGee
+<p>- Dorsk 81
+<br>- New Republic Officer
 
 <h3><b><i><u>GALACTIC ALLIANCE</u></i></b></h3>
-<p>- Alema Rar
-<br>- Ben Skywalker (New Variant)
-<br>- Galactic Alliance Guard
-<br>- Hohass Ekwesh
-<br>- Kam Solusar
-<br>- Lensi
-<br>- Streen
-<br>- Tahiri Veila
+<p>- T'ra Saa
 
 <h3><b><i><u>GALACTIC EMPIRE</u></i></b></h3>
-<p>- Arden Lyn
-<br>- AT-AT Pilot (Updated Model)
-<br>- Darth Vader (Dark Dimension) (New Variant)
-<br>- Ellian Zahra
-<br>- Ensign Nanda
-<br>- Gar Saxon
-<br>- Grand Admiral Thrawn (With Ysalimari) (New skin)
-<br>- Ground Crewman
-<br>- ID9 Seeker Droid
-<br>- Imperial Engineer
-<br>- Imperial Officer (Armored) (New Variant)
-<br>- Imperial Shuttle Pilot
-<br>- Imperial Seatrooper
-<br>- Imperial Supercommando
-<br>- Kashyyyk Trooper
-<br>- Mud Trooper
-<br>- Ninth Sister
-<br>- Purge Trooper (New Variant)
-<br>- Phase Zero Dark Trooper
-<br>- Rebus
-<br>- Sergeant Kreel
-<br>- Sim Aloo
-<br>- Triton Squad Stormtrooper
+<p>- Carnor Jax
+<br>- Captain Pellaeon (New Skin)
+<br>- Elite Squad
+<br>- Emperor Palpatine (Senate)
+<br>- General Mohc (New Variant)
+<br>- Janus Greejatus
+<br>- Kir Kanos
+<br>- Narkina V Officer
+<br>- Royce Hemlock
+<br>- Stormtrooper (Updated Model + Variants)
 
 <h3><b><i><u>IMPERIAL REMNANT</u></i></b></h3>
-<p>- Juggernaut Pilot
-<br>- Niles Ferrier
-<br>- Praetorian Guard
-<br>- Raptor Trooper
-<br>- Zsinj
+<p>- Brakiss
 
-<h3><b><i><u>FEL'S EMPIRE</u></i></b></h3>
-<p>- Sigel Dare
+<h3><b><i><u>DARTH KRAYT'S EMPIRE</u></i></b></h3>
+<p>- Darth Krayt (New Variant)
+<br>- Darth Maladi (Updated Model)
+<br>- Darth Maleval
+<br>- Darth Wyyrlok
 
-<h3><b><i><u>RESISTANCE</u></i></b></h3>
-<p>- Lando Calrissian (Veteran)
-<br>- Luke Skywalker (Updated Models)
-<br>- Resistance Trooper
-<br>- Rose Tico
 
-<h3><b><i><u>FIRST ORDER</u></i></b></h3>
-<p>- Agent Terex
-<br>- First Order Raider
-<br>- First Order Technician
-<br>- First Order TIE Pilot
-<br>- Vicrul
-
-<h3><b><i><u>DARTH KRAYT'S GALACTIC EMPIRE</u></i></b></h3>
-<p>- Darth Krayt (Vong Armor) (Updated Model)
-<br>- Imperial Officer
-<br>- Morrigan Corde
-<br>- Rav
+<h3><b><i><u>SITH ETERNAL</u></i></b></h3>
+<p>- Sovereign Protector</p>
 
 <h3><b><i><u>BOUNTY HUNTERS</u></i></b></h3>
-<p>- Boba Fett (New Variant)
-<br>- Boba Fett (Daimyo) (Updated model)
-<br>- Cato Parasitti
-<br>- Cradossk
-<br>- Greef Karga
-<br>- Hanharr
-<br>- Jariah Syn
-<br>- Jodo Kast
-<br>- Skahtul
-<br>- Skorr
-
-<h3><b><i><u>MANDALORIANS</u></i></b></h3>
-<p>- Bo-Katan Kryze (New Variant)
-<br>- Clan Chorn Mandalorian
-<br>- Heavy Mandalorian
-<br>- Khomo Fett
-<br>- Tarre Vizsla
-<br>- The Armorer
-<br>- Torian Cadera
-
-<h3><b><i><u>MANDALORIAN NEO-CRUSADERS</u></i></b></h3>
-<p>- Rohlan Dyre
-
-<h3><b><i><u>INDEPENDENT CRIMINALS</u></i></b></h3>
-<p>- 8t88
-<br>- Brea & Senni Tonnika
-<br>- Drexl Roosh
-<br>- Enfys Nest
-<br>- Gadon Thek
-<br>- Hondo Ohnaka (Galaxy's Edge)(New Default Variant)
-<br>- Krix
-<br>- Rebolt
-<br>- Syke
-<br>- Terak
-<br>- Vana Sage
+<p>- 4-LOM (Updated Model)
+<br>- Aurra Sing (Updated Model)
+<br>- Aurra Sing (Jedi Hunter) (New Variant)
+<br>- IG-88 (New Variant)
+<br>- Zuckuss (Updated Model)
 
 <h3><b><i><u>HUTT CARTEL</u></i></b></h3>
-<p>- Geezum
-<br>- Malakili
-<br>- Max Rebo
-<br>- Salacious Crumb
-<br>- Saelt-Marae
-
-<h3><b><i><u>BLACK SUN</u></i></b></h3>
-<p>- Guri (Dress) (New Variant)
+<p>- Dr. Cornelius Evazan
 
 <h3><b><i><u>CRIMSON DAWN</u></i></b></h3>
-<p>- Dryden Vos
-<br>- Hylobon Enforcer
-<br>- Shadow Collective Mandalorian
+<p>- Maul (Model Update)
 
-<h3><b><i><u>ZANN CONSORTIUM</u></i></b></h3>
-<p>- Defiler
-<br>- MK II Droideka
-<br>- Silri
-<br>- Tyber Zann
-<br>- Urai Fenn
-
-<h3><b><i><u>ETERNAL ALLIANCE</u></i></b></h3>
-<p>- Jakarro
-<br>- Kaliyo Djannis
-<br>- Koth Vortena
-<br>- Lana Beniko (Alliance Advisor) (New Variant)
-<br>- Vette
-
-
-<h3><b><i><u>JEDI ORDER</u></i></b></h3>
-<p>- Cal Kestis (Inquisitor) (New Variant)
-<br>- Cal Kestis (Survivor) (New Variant)
-<br>- Gungan Jedi Knight
-<br>- Kazdan Paratus
-<br>- Kento Marek
-
-<h3><b><i><u>SITH ORDER</u></i></b></h3>
-<p>- Darth Caedus (Updated Model)
-<br>- Githany
-
-<h3><b><i><u>NIGHTSISTERS</u></i></b></h3>
-<p>- Charal
-<br>- Gethzerion
-<br>- Nightsister Master
-
-<h3><b><i><u>UNALIGNED FORCE USERS</u></i></b></h3>
-<p>- Abeloth
-<br>- Dagan Gera
-<br>- Felucian Shaman
-<br>- Kueller
-<br>- Maris Brood
-<br>- Maulkiller
+<h3><b><i><u>INDEPENDENT CRIMINALS</u></i></b></h3>
+<p>- Bera Kazan
+<br>- Bom Vimdin
+<br>- Davik Kang
+<br>- 0-0-0
 
 <h3><b><i><u>CIVILIANS</u></i></b></h3>
-<p>- Alderaan Scientist
-<br>- Chiss Aristocrat
-<br>- Devaronian (New Variant)
-<br>- Gand (New Variant)
-<br>- Ishi Tib
-<br>- Kage
-<br>- Kaleesh
-<br>- Kaminoan
-<br>- Muun
-<br>- Nabrun Leids
-<br>- Narkina V Prisoner
-<br>- Nikto
-<br>- Polis Massan
-
-<h3><b><i><u>EWOKS</u></i></b></h3>
-<p>- Logray
-<br>- Paploo
-
-<h3><b><i><u>Yuuzhan Vong</u></i></b></h3>
-<p>- Vong Priestess
+<p>- 50R-T
+<br>- Asogian
+<br>- Babu Frik
+<br>- Camie Marstrap
+<br>- Dantooine Militiaman
+<br>- Droopy McCool
+<br>- Duros (New Variant)
+<br>- Karkarodon
+<br>- Kino Loy
+<br>- Leesub Sirln
+<br>- Narkina V Prisoner (Model Update)
+<br>- New Republic Human Male & Female
+<br>- Ohwun De Maal
+<br>- Quarren
+<br>- Tusken King
+<br>- Tusken Raider (Old Republic)
+<br>- Twi'lek Male (New Variant)
 
 <h3><b><i><u>CREATURES</u></i></b></h3>
-<p>- Swamp Wampa
+<p>- Felucian Rancor
+<br>- Felucian Bull Rancor
+<br>- Swamp Wampa
+
+<h3><b><i><u>MANDALORIANS</u></i></b></h3>
+<p>- Mandalore the Indomitable
+<br>- Mandalorian Warrior (Old Republic)
+
+<h3><b><i><u>ETERNAL ALLIANCE</u></i></b></h3>
+<p>- Nico Okkar (Updated Model)
+<br>- Vette (New Variant)
+
+<h3><b><i><u>NIGHTSISTERS</u></i></b></h3>
+<p>- Nightbrother
+
+<h3><b><i><u>JEDI ORDER</u></i></b></h3>
+<p>- Cal Kestis (Scrapper) (Updated Model)
+<br>- Jedi Knight (Hermit & Journeyman)
+
+<h3><b><i><u>SITH ORDER</u></i></b></h3>
+<p>- Sith Lord (Armored)
+<br>- Sith Statue
+
+<h3><b><i><u>UNALIGNED FORCE USERS</u></i></b></h3>
+<p>- Baylan Skoll
+<br>- Shin Hati
 
 <h3><b><i><u>INFINITIES</u></i></b></h3>
-<p>- 3 new Operation: Knightfall-exclusive characters
-<br>- 2 new team member characters
-<br>- Anakin Skywalker (Redeemed)
-<br>- Rebel Friend
-<br>- Starkiller (Inquisitor)
+<p>- Darth Jar Jar
+<br>- Darth Valeria (New Variant)
+<br>- Max
 
-<h3><b><u>CODE UPDATES</u></b></h3>
-<p>- Re-wrote some logic to prevent the RE_RegisterSkin error message which would cause a number of player models to display the black and white invalid texture when loading a save game.
-<br>- Corrected an issue where the playermodel command would keep the same skin used by the previous model which could cause a missing texture OR missing skin issue.
-<br>- Implemented a number of improvements for widescreen displays. (Huge thank you to the Jedi Knight Enhanced team).
-<br>- Controller Support!
-<br>- Characters with saber-switching AI will now reflect the same saber color they started off with if their assigned color wasn't their default.
-<br>- New command: NPC Speech. Allows for any NPC or the Player to speak any audio file.
-<br>"NPC Sound [NPC Targetname] [Sound file path] [Voice channel]"
-<br>Valid channels are Global (Can be heard anywhere), Body (comes from the character's body but causes no mouth movement), Weapon (comes from the character's weapon), or leave blank for normal voice behavior.
-<br>
-<br>- New command: NPC Remove. Remove any NPC from the game without needing to kill them.
-<br>"NPC Remove [NPC Targetname]"
+<h3><b><u>NEW WEAPONS</u></b></h3>
+<h3><b><i><u>E-5s Sniper Rifle</u></i></b></h3>
+<p>The BAW E-5s sniper rifle was a four-shot rifle produced by Baktoid Armor Workshop and used by the Battle droid assassins of the Trade Federation and the Separatist Droid Army.</p>
+<p><b>Player Damage:</b> 15 (25 while scoped)
+<br><b>Bolt Velocity:</b> 4000 (fastest in the game) (NPCs are not slowed at all)
+<br><b>NPC Damage:</b> 6 (Easy Difficulty), 12 (Medium Difficulty), 18 (Hard Difficulty)
+<br><b>Player Firing Rate:</b> 1 shot per second
+<br><b>NPC Firing Rate:</b> 1 shot per 2.5 seconds (Easy Difficulty), 1 shot per 2 seconds (Medium Difficulty), 1 shot per 1.5 seconds (Hard Difficulty)
+<br><b>Ammo per shot:</b> 3
+<br><b>Special Features:</b> Blaster bolts cannot be deflected/reflected on any difficulty other than Easy.
 
-<h3><b><u>OPENJK UPDATES</u></b></h3>
-<p><b>The following changes were implemented with recent commits to the JACoders/OpenJK GitHub repository.</b></p>
-<p>- Game will no longer hang when attempting to load a map with more than 128 spawn points
-<br>- Re-worked logic to allow players to progress past the Force Power selection menu even after using the "Setforceall 3" command.
-<br>- The game should no longer crash if attempting to load a save game featuring a vehicle that was spawned from the console.
+<h3><b><u>NEW LIGHTSABERS/MELEE WEAPONS</u></b></h3>
+<p>- Baylan Skoll
+<br>- Gaderffi Stick (Various)
+<br>- Jaesa Willsaam
+<br>- Kissai Sword
+<br>- Kol Skywalker
+<br>- Leia Organa Solo
+<br>- Nightbrother Mace
+<br>- Nightsister Blade
+<br>- Royal Guard Force Pike (Updated Model)
+<br>- Royal Guard Staff (Updated Model)
+<br>- Shin Hati
+<br>- Sith Statue
+<br>- All Inquisitor Lightsabers now have the capability to spin.
 
-<h3><b><u>MAP UPDATES</u></b></h3>
-<h3><b><i><u>MUSTAFAR (V3)</u></i></b></h3>
-<p>- Fixed all invalid NPC spawners that were attempting to spawn bad npcs.</p>
 
-<h3><b><u>NEW GAME PLUS UPDATES</u></b></h3>
-<p>- Added new logic to prevent melee-using npcs from spawning in certain conditions to prevent them from floating.</p>
-<br>- Replaced the Purge Trooper melee variations with the Imperial Supercommando and Uprising Purge Trooper for the Stormtrooper Commander and Officer.
-<br>- Changed the snowtrooper's alternate enemy from a Cultist to an Imperial Supercommando.
+<h3><b><u>NPC FREE CHOICE SYSTEM</u></b></h3>
+<p>- Added the ability to change the model, customize force abilities, RGB, and more to the system.
+<br>- Removed a large number of NPCs (list below) that were no longer required.
+<br>- Spawning an NPC with the weapon WP_NONE will now reflect as intended.
 
-<h3><b><u>MENU/UI FIXES</u></b></h3>
-<h3><b><i><u>WEAPON SELECTION</u></i></b></h3>
-<p>- Selecting the trip mine will now provide it as intended
-</li>
+<h3><b><u>AI IMPROVEMENTS</u></b></h3>
+<p>- Galak Mech will now play the appropriate animation when his antenna is destroyed.
+
+<h3><b><u>NPC & PLAYERMODEL UPDATES</u></b></h3>
+<p>- Gave Sim Aloo basic force abilities due to his training as a Dark Side Adept.
+<br>- Renamed surfaces on the Selkath model to allow it to hold and use melee weapons or lightsabers.
+<br>- Renamed surfaces on Finn (Resistance Hero) to allow him to hold and use melee weapons or lightsabers.
+<br>- Corrected scaling for T3-M4, T3-H8, and G0-T0.
+<br>- Assigned the correct weapon to the Super Battle Droid.
+<br>- Gave Vandar Tokare two shoto lightsabers to accurately represent his fighting style.
+
+<h3><b><u>HUD UPDATES</u></b></h3>
+<p>- Labelled Desann style with Purple instead of red.
+<br>- Labelled Tavion style with Cyan instead of blue.
+
+<h3><b><u>WAYPOINTS</u></b></h3>
+<p><i><b>The following maps have had waypoints added so NPCs should behave as expected while playing on them.</i></b></p>
+<p>- Alzoc III Enclave
+<br>- Battlefront Yavin
+<br>- Carida Academy
+<br>- Cavrilhu
+<br>- Episode II: Kamino
+<br>- Episode II: Kamino Armory
+<br>- Episode III: Invisible Hand (v2)
+<br>- Episode IV: Tantive IV
+<br>- Episode V: Echo Base
+<br>- Episode VII: Jakku
+<br>- Episode VIII: Snoke's Throne Room
+<br>- KOTOR II: Freedon Nadd's Tomb
+<br>- KOTOR II: The Ravager
+<br>- KOTOR II: Trayus Academy
+<br>- Rogue One: Scarif
+<br>- RC: Geonosis Canyon
+<br>- RC: RAS Prosector Bridge
+<br>- RC: RAS Prosecutor Detention Block
+
+<h3><b><u>FORCE POWER UPDATES</u></b></h3>
+<h3><b><i><u>FORCE STASIS</u></i></b></h3>
+<p>- Corrected an issue where the stasis looping sound would not stop on the player after the power's effect wore off.</p>
+<h3><b><i><u>FORCE DESTRUCTION</u></i></b></h3>
+<p>- Force Destruction will no longer cause non-animal vehicles to disintegrate when destroying them.</p>
+
+<h3><b><u>MAP FIXES</u></b></h3>
+<h3><b><i><u>UTAPAU</u></i></b></h3>
+<p>- Enabled two disabled emplaced guns on the map so they could be used in Single Player.</p>
+
+<h3><b><i><u>RAXUS PRIME</u></i></b></h3>
+<p>- Fixed a faulty spawn point that would cause players to immediately fall to their death.</p>
+
+<h3><b><u>CODE FIXES</u></b></h3>
+<p>- Removed a duplicate "allow saber locking" cvar which was only being used for cutscenes.
+<br>- Cutscene NPCs can no longer enter a saber lock.
+<br>- Changing into a Knightfall boss character while playing Operation: Knightfall will no longer buff the player with their bonuses.
+<br>- Fixed a very rare issue where CLASS_JANGO npcs would only target the player.
+<br>- Changed Boba Fett's player lock-on logic to only occur if the map being played on is t3_bounty.
+<br>- Added an extra frame to the loading time to allow for all needed entities to fully load on faster devices.
+<br>- Removed an unneeded saber lock restriction command.
 
 <h3><b><u>MISCELLANEOUS FIXES</u></b></h3>
-<p>- Beginning the Jedi Outcast campaign will now display the "A long time ago in galaxy far far away" message instead of the typical loading screen.
-<br>- Removed a number of pointless menu items from the JKJO pk3 file that was causing issues with starting a new game in the base game.
-<br>- The default targetname message will no longer display if the NPC attempting to be spawned is not valid.
+<p>- NPCs with a pre-set skin in their NPC files will no longer spawn with their model's default skin if no skin was selected if spawned from the console.
+<br>- Renamed Wedge Antilles's shader file name, which was causing shader problems for the t2_wedge level, causing multiple texture problems.
+<br>- NPCs should now spawn with an RGB blade if assigned one through the menu.
+<br>- Fixed an issue where Kyle Katarn's and Agent Kallus's default NPC weapons were not their respective melee weapons.
+<br>- Disabled customization on Falon Grey as they weren't needed.
+<br>- Removed unneeded team blue and red skins on the Temple Security Force
+<br>- Adjusted Kirana Ti's spear to behave more appropriately.
+<br>- Sergeant Kreel and the 21st Nova Corps trooper will spawn as intended
+<br>- The Chistori Jedi Knight is now scaled to the correct height.
+<br>- Corrected multiple typos for Adalric Cessius Brandl's first name, refactoring all files as needed.
+<br>- Renamed Zayne Carrick's lightsaber to "Zayne Carrick (Padawan)"
+<br>- Corrected a minor syntax error for Revan's lightsaber which was causing warning messages to appear in the console.
+<br>- Added Anakin Skywalker's "incorrect" to his soundset if he's failed to be Force Pushed.
+<br>- Restored ARC Troopers Blitz, Colt, and Havoc to the Galactic Republic faction as they were missing.
 
-<li class="KotFSM">
+<h3><b><u>BIOGRAPHY UPDATES</u></b></h3>
+<p>- Updated Asajj Ventress's biography to reflect her appearance in Season 3 of The Bad Batch.</p>
+
+
+
+<h3><b><u>REMOVED NPCS</u></b></h3>
+<p>The following NPCs were removed from the mod due to the upgrades to the NPC Free Choice System. This can potentially cause save game incompatibilities, we apologize for the inconvenience.</p>
+<p><b>NOTE: This is <u>NOT</u> removing the character's appearance from the mod! This is taking advantage of the NPC Free Choice System's functionality to assign any model to any NPC intended to have identical stats, freeing up space for more characters and NPCs in the future.</b></p>
+
+<h3><b><i><u>BOUNTY HUNTERS</u></b></i></h3>
+<p>- boba_fett_panna
+<br>- boba_fett_daimyo
+<br>- boba_fett_resurfaced
+<br>- Montross_Helm
+
+<h3><b><i><u>SEPARATIST ALLIANCE</u></b></i></h3>
+<br>- asajj_ventress_disciple
+<br>- asajj_ventress_staff
+<br>- asajj_ventress_nightsister
+<br>- asajj_ventress_bh
+<br>- count_dooku_ritual
+<br>- Neimoidian_Security
+<br>- Ep3_Nute_Gunray
+<br>- battle_droid_firefighter
+<br>- battle_droid_flamethrower
+<br>- battle_droid_marine
+<br>- battle_droid_mk3
+<br>- battle_droid_rc
+<br>- battle_droid_rocket
+
+<h3><b><i><u>INDEPENDENT CRIMINALS</u></b></i></h3>
+<br>- trandoshan_kotor
+
+<h3><b><i><u>CRIMSON DAWN</u></b></i></h3>
+<br>- Shadow_Collective2
+<br>- pyke2
+<br>- pyke_bh
+
+<h3><b><i><u>ZANN CONSORTIUM</u></b></i></h3>
+<p>- mkii_droideka
+
+<h3><b><i><u>BLACK SUN</u></b></i></h3>
+<p>- Guri_Dress
+
+<h3><b><i><u>CIVILIANS</u></b></i></h3>
+<p>- ithorian_kotor
+<br>- jawa2
+<br>- S_mustafarian
+<br>- N_mustafarian (renamed to Mustafarian)
+<br>- tusken2
+
+<h3><b><i><u>GALACTIC EMPIRE</u></b></i></h3>
+<p>- IMP_OFF_ISB
+<br>- IMP_OFF_OL_PNC
+<br>- IMP_OFF_BL_PNC
+<br>- IMP_OFF_ISB_PNC
+<br>- IMP_OFF_OL_TCH
+<br>- IMP_OFF_BL_TCH
+<br>- IMP_OFF_ISB_TCH
+<br>- IMP_OFF_OL_F (renamed to impofficer_f)
+<br>- IMP_OFF_BL_F
+<br>- IMP_OFF_ISB_F
+<br>- Galen_Marek_Heavy
+<br>- Galen_Marek_Light
+<br>- Galen_Marek_Training
+
+<h3><b><i><u>IMPERIAL REMNANT</u></b></i></h3>
+<p>- alora_dual2
+<br>- alora_dual3
+<br>- impworker4
+<br>- mark3_dark
+
+<h3><b><i><u>INFINITIES</u></b></i></h3>
+<p>- Galen_Marek_Ceremonial
+<br>- Galen_Marek_HCG
+<br>- Galen_Marek_Utility
+<br>- Galen_Marek_General
+<br>- Galen_Marek_Assassin
+<br>- Sith_Stalker
+<br>- Cybernetic_Reconstruction
+<br>- Lord_Starkiller_Tatooine
+<br>- Starkiller_Hunter
+<br>- Battle_Droid_Concept
+
+<h3><b><i><u>JEDI & SITH</u></b></i></h3>
+<p>- KOTOR_Jedi7-30
+
+<h3><b><i><u>MANDALORIANS</u></b></i></h3>
+<p>- Bo-Katan_Mando
+<br>- Ruusaan_Skirata_NoHelm
+<br>- The_Mandalorian_NoBeskar
+
+<h3><b><i><u>DARTH KRAYT'S EMPIRE</u></b></i></h3>
+<p>- Darth_Talon (replaced by Darth_Talon_GOH)
+<br>- Twilek_Sith
+
+<h3><b><i><u>ETERNAL ALLIANCE</u></b></i></h3>
+<p>- Lana_Beniko_Advisor
+
+<h3><b><i><u>CREATURES</u></b></i></h3>
+<p>- Rakghoul_TOR
+<br>- Undead_Stormtrooper_Blaster
+
+<h3><b><i><u>ETERNAL EMPIRE</u></b></i></h3>
+<p>- Zakuul_Knight_Dual
+
+<h3><b><i><u>REBELLION</u></b></i></h3>
+<p>- Ahsoka_Tano_Mandalorian
+<br>- Ezra_Bridger_Helmet
+<br>- Galen_Marek_BH
+<br>- Galen_Marek_Corellian
+<br>- Galen_Marek_Industrial
+<br>- Galen_Marek_Jungle
+<br>- Galen_Marek_Medical
+<br>- Galen_Marek_Temple
+<br>- Starkiller_TIE
+<br>- Starkiller_Jedi
+<br>- Han_Solo_Hoth
+<br>- Kanan_Jarrus_Mask
+<br>- Rahm_Kota_Drunk
+<br>- Rahm_Kota_TFU2
+<br>- Leia_OM
+<br>- Leia_Honoghr
+<br>- Leia_Lothal
+<br>- Leia_Black_Sun
+<br>- Leia_Jedi_Training
+<br>- Ep6_Leia_Slave
+<br>- Ep4_Luke_Yavin
+<br>- Ep5_Luke_Pilot
+<br>- Ep5_Luke_Dagobah
+<br>- BOBF_Luke
+<br>- Luke_CS
+<br>- Luke_Heir
+<br>- Luke_Heir_Pilot
+<br>- Luke_Rebel
+<br>- Luke_Mimban
+<br>- r2d2_jabba
+<br>- Mothma_TFU
+<br>- Sabine_Wren_Darksaber
+
+<h3><b><i><u>NEW REPUBLIC</u></b></i></h3>
+<p>- Jaina_Solo_Jedi
+<br>- Jaina_Solo_Pilot
+<br>- Jaina_Solo_Rogue
+<br>- Jaina_Solo_Top
+<br>- Kyle_DF2_LS
+<br>- Kyle_DF2_Cutscene (replacing Kyle_DF2)
+<br>- Kyle_DF2_LS_Cutscene
+<br>- Kyle_Robes
+<br>- Kyle_Stealth
+<br>- Mara_Jade_Winter
+<br>- Mara_Jade_Smuggler
+<br>- Mara_Jade_Poncho
+<br>- Mara_Jade_Vong
+
+
+<h3><b><i><u>GALACTIC ALLIANCE</u></b></i></h3>
+<p>- Ben_Skywalker_Tunic
+<br>- Corran_Horn_Pilot
+
+<h3><b><i><u>RESISTANCE</u></b></i></h3>
+<p>- Finn_EP9
+<br>- Rey_Skywalker
+
+<h3><b><i><u>OLD REPUBLIC</u></b></i></h3>
+<p>- vrook_lamar_kotor
+<br>- Republic_Trooper2
+<br>- Havoc_Trooper2
+<br>- Satele_Shan_Exile
+<br>- Republic_Pilot
+
+<h3><b><i><u>RULE OF TWO</u></b></i></h3>
+<p>- Darth_Bane_Lord
+<br>- Darth_Bane_Spirit
+<br>- Darth_Maul_Shirtless
+<br>- Darth_Sion_TFU
+
+<h3><b><i><u>BROTHERHOOD OF THE SITH</u></b></i></h3>
+<p>- Exar_Kun_Lord
+
+<h3><b><i><u>ANCIENT SITH</u></b></i></h3>
+<p>- Naga_Sadow_Alt
+
+<h3><b><i><u>RESURGENT SITH EMPIRE</u></b></i></h3>
+<br>- Sith_Inquisitor_Single
+
+<h3><b><i><u>DARTH REVAN'S SITH EMPIRE</u></b></i></h3>
+<p>- Sith_Commander
+<p>- Sith_Trooper_Swordsman
+<p>- Sith_Trooper_Heavy
+<p>- Sith_Trooper_Grenadier
+
+<h3><b><i><u>GALACTIC REPUBLIC</u></b></i></h3>
+<p>- Gran_Jedi2
+<br>- Ahsoka_Tano_Padawan
+<br>- TCW_Anakin
+<br>- TCW_Anakin_Midwar
+<br>- Barriss_Offee_Dark
+<br>- Barriss_Offee_Disguise
+<br>- Depa_Billaba_TPM
+<br>- Even_Piell_TCW
+<br>- Darth_Sidious_Dual
+<br>- Darth_Sidious_Apprentice
+<br>- Plo_Koon_JPB
+<br>- Plo_Koon_TCW
+<br>- Quinlan_Vos_TCW
+<br>- Siri_Tachi_Suit
+<br>- Yoda_Hood
+<br>- NSF_Guard2
+<br>- NSF_PalaceGuard
+<br>- NSF_PalaceGuard2
+<br>- Nahdar_Vebb_Robed
+<br>- TCW_Obiwan
+<br>- TCW_Obiwan_Midwar
+<br>- Obiwan_DW
+<br>- Obiwan_Hermit
+<br>- Obiwan_Jabiim
+<br>- Ep2_Padme_Pilot
+<br>- TCW_Padme_Snow
+<br>- Ep3_Padme_Senator
+<br>- Ep3_Padme_Nightgown
+<br>- Ep3_Padme_Nightgownblue
+<br>- Ep3_Padme_Mustafar
+<br>- Ep1_Padme_Queen_Black
+
+
+
+</li>
+
+
+
+<li class="SWGLSM">
 <h2>FOLLOW US</h2>
 <p><a href="https://discord.gg/hChZNvJ">Discord</a>
-<br><a href="https://www.moddb.com/mods/swgl">Moddb</a>
-<br><a href="https://www.facebook.com/starwarsgalacticlegacy">Facebook</a></p>
+<br><a href="https://www.moddb.com/mods/swgl">Moddb</a></p>
 </li>
 </ul>
 </body>
