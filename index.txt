@@ -63,8 +63,50 @@ max-width: 800px;
 
 <li class="PatchNotes">
 
+<h3><u>Hotfix Patch Notes - 02/23/2025</u></h3>
 
-<h3><u>Patch Notes - 02/17/25</u></h3>
+<h3><b><u>MISSION FIXES</u></b></h3>
+<h3><b><i><u>DUEL OF THE FATES (DARTH MAUL)</u></i></b></h3>
+<p>- Restored missing Neimoidian guards at the beginning of Mustafar.</p>
+
+<h3><b><u>CODE CHANGES</u></b></h3>
+<p>- Fixed an issue where RGB Sabers weren't applying correctly to NPCs when assigned.
+<br>- Fixed an issue where RGB Skin Customization wasn't applying if any value was 0.
+<br>- Applied Darth Vader's breathing to the new Darth Vader models.
+<br>- Coded new logic to work Darth Vader's and Lord Starkiller's breathing sounds if Held By Hatred is applied as an attribute.
+<br>- Added a new wheezing Darth Vader breathing sound and adjusted health thresholds to account for it.</p>
+
+
+<h3><b><u>NEW CHARACTERS</u></b></h3>
+<p>- Luke Skywalker (Sith Apprentice) (Model Update) - Rebellion
+<br>- Lowbacca - Galactic Alliance
+<br>- Risha Drayen - Old Republic
+<br>- BT-1 - Independent Criminals
+<br>- Merrin - Nightsisters
+<br>- Kul Teska - Separatist Alliance
+<br>- Phase I Darktrooper - Galactic Empire</p>
+
+<h3><b><u>MAP WAYPOINTS</u></b></h3>
+<p><b>The following maps have had waypoints added and are reflected appropriately in the menu.</b></p>
+<p>- Episode III: Jedi Temple Entryway
+<br>- Episode III: Kashyyyk
+<br>- Episode III: Mygeeto</p>
+
+<h3><b><u>AI IMPROVEMENTS</u></b></h3>
+<p><b>Applied Force User AI to the following characters</b></p>
+<p>- Merrin
+<br>- Nightsister Ghost
+<br>- Sim Aloo
+<br>- Janus Greejatus</p>
+
+<h3><b><u>OTHER FIXES</u></b></h3>
+<p>- Removed a line of code added to the saber assignment script command which turned lightsabers off when the change was made.
+<br>- 21st Clone Trooper/Galactic Marine will now spawn as intended.
+<br>- Gave Han Solo (Stormtrooper) back his head.
+<br>- Fixed a rare problem where the RGB Saber sliders would appear when opening the lightsaber menu after closing it with them active.
+
+
+<h3><u>Patch Notes - 02/17/2025</u></h3>
 
 <h3><b><u>HIGHLIGHTS</u></b></h3>
 <p><b>NEW SYSTEM: ATTRIBUTES;</b> Highlighting special factors of a character's species or personality, the new Attribute system will bring more realism to each character in Galactic Legacy.
